@@ -1,0 +1,1671 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i-max 0ics srls\n"
+"POT-Creation-Date: 2015-07-21 12:36+0100\n"
+"PO-Revision-Date: 2015-07-21 12:36+0100\n"
+"Last-Translator: mirka <mstancikova@gmail.com>\n"
+"Language-Team: mirka <mstancikova@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Not found"
+msgstr ""
+
+#: 404.php:20
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: author-bio.php:25
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: author-bio.php:29
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: author.php:30
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: comments.php:24
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:44
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:45
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:46
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr ""
+
+#: content-aside.php:12 content-audio.php:23 content-gallery.php:23
+#: content-image.php:22 content-link.php:23 content-quote.php:12
+#: content-status.php:12 content-video.php:22 content.php:71 single.php:42
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-aside.php:13 content-audio.php:24 content-chat.php:23
+#: content-gallery.php:24 content-image.php:23 content-link.php:24
+#: content-quote.php:13 content-status.php:13 content-video.php:23
+#: content.php:78 image.php:69 page-sidebar.php:33 page.php:40
+#: single-portfolio.php:89 single.php:43
+msgid "Pages:"
+msgstr ""
+
+#: content-aside.php:19 content-aside.php:27 content-audio.php:30
+#: content-chat.php:28 content-gallery.php:38 content-image.php:34
+#: content-link.php:18 content-quote.php:24 content-status.php:18
+#: content-video.php:34 content.php:57 image.php:43 page-sidebar.php:37
+#: page.php:44 single-portfolio.php:93 single.php:37
+msgid "Edit"
+msgstr ""
+
+#: content-gallery.php:35 content-image.php:31 content-quote.php:21
+#: content-video.php:31 content.php:85
+msgid "Leave a comment"
+msgstr ""
+
+#: content-gallery.php:35 content-image.php:31 content-quote.php:21
+#: content-video.php:31 content.php:85
+msgid "One comment so far"
+msgstr ""
+
+#: content-gallery.php:35 content-image.php:31 content-quote.php:21
+#: content-video.php:31 content.php:85
+#, php-format
+msgid "View all % comments"
+msgstr ""
+
+#: content-none.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: content-none.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: footer.php:21
+msgid "Copyright &copy;"
+msgstr ""
+
+#: footer.php:24
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:24
+msgid "Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:25
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: footer.php:27
+msgid ", Designed and Developed by"
+msgstr ""
+
+#: footer.php:28
+msgid "http://www.templatesnext.org/"
+msgstr ""
+
+#: footer.php:29
+msgid "templatesnext"
+msgstr ""
+
+#: functions.php:90
+msgid "Navigation Menu"
+msgstr ""
+
+#: functions.php:141
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:147
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:277
+msgid "Main Widget Area"
+msgstr ""
+
+#: functions.php:279
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: functions.php:287
+msgid "Main Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:289
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#: functions.php:323
+msgid "Previous"
+msgstr ""
+
+#: functions.php:324
+msgid "Next"
+msgstr ""
+
+#: functions.php:329
+msgid "Posts navigation"
+msgstr ""
+
+#: functions.php:359
+msgid "Post navigation"
+msgstr ""
+
+#: functions.php:362
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: functions.php:363
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:401
+msgid "Sticky"
+msgstr ""
+
+#: functions.php:407 functions.php:413
+msgid ", "
+msgstr ""
+
+#: functions.php:422
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: functions.php:442
+#, php-format
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: functions.php:448
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: functions.php:653
+msgid "Read More..."
+msgstr ""
+
+#: functions.php:724 inc/class-tgm-plugin-activation.php:226
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:725 inc/class-tgm-plugin-activation.php:227
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:726 inc/class-tgm-plugin-activation.php:228
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:727
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:728 inc/class-tgm-plugin-activation.php:230
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:729 inc/class-tgm-plugin-activation.php:231
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:730 inc/class-tgm-plugin-activation.php:232
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:731 inc/class-tgm-plugin-activation.php:233
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:732 inc/class-tgm-plugin-activation.php:234
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:733 inc/class-tgm-plugin-activation.php:235
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:734 inc/class-tgm-plugin-activation.php:236
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:735 inc/class-tgm-plugin-activation.php:237
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:736 inc/class-tgm-plugin-activation.php:238
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:737 inc/class-tgm-plugin-activation.php:239
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:738 inc/class-tgm-plugin-activation.php:240
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:739 inc/class-tgm-plugin-activation.php:242
+#: inc/class-tgm-plugin-activation.php:2188
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:740
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: header.php:67
+msgid "Call us : "
+msgstr ""
+
+#: header.php:74
+msgid "Mail us : "
+msgstr "Email:"
+
+#: header.php:99
+msgid "Menu"
+msgstr ""
+
+#: header.php:100
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:179
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: header.php:181
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: header.php:181
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: header.php:183
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: header.php:183
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: header.php:185
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: header.php:187
+msgid "Archives"
+msgstr ""
+
+#: header.php:193
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: image.php:21
+#, php-format
+msgid ""
+"<span class=\"attachment-meta\">Published on <time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" "
+"rel=\"gallery\">%5$s</a></span>"
+msgstr ""
+
+#: image.php:37
+msgid "Link to full-size image"
+msgstr ""
+
+#: image.php:38
+msgid "Full resolution"
+msgstr ""
+
+#: image.php:50
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:51
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:229
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:241
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:243
+#: inc/class-tgm-plugin-activation.php:1845
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:244
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:245
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:601
+#: inc/class-tgm-plugin-activation.php:2418
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:694
+msgid ""
+"The remote plugin package is does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:694
+#: inc/class-tgm-plugin-activation.php:698
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:698
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1352
+#: inc/class-tgm-plugin-activation.php:1527
+msgid "Private Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1356
+#: inc/class-tgm-plugin-activation.php:1531
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1361
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1364
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1364
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1367
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1370
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1478
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1500
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1552
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</"
+"a>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1568
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1569
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1570
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1571
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1589
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1590
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1701
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1822
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2171
+msgid "Install package not available."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2172
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2173
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2174
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2175
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2176
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2187
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2310
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2311
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2316
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2316
+#: inc/class-tgm-plugin-activation.php:2323
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2316
+#: inc/class-tgm-plugin-activation.php:2323
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2317
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2318
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2322
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2323
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2324
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2325
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:92 nx-customizer.php:18
+msgid "Background Color"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:93 nx-customizer.php:19
+msgid "Background Image"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:94 nx-customizer.php:20
+msgid "No Repeat"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:95 nx-customizer.php:21
+msgid "Repeat All"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:96 nx-customizer.php:22
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:97 nx-customizer.php:23
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:98 nx-customizer.php:24
+msgid "Inherit"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:99 nx-customizer.php:25
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:100 nx-customizer.php:26
+msgid "Cover"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:101 nx-customizer.php:27
+msgid "Contain"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:102 nx-customizer.php:28
+msgid "Background Size"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:103 nx-customizer.php:29
+msgid "Fixed"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:104 nx-customizer.php:30
+msgid "Scroll"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:105 nx-customizer.php:31
+msgid "Background Attachment"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:106 nx-customizer.php:32
+msgid "Left Top"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:107 nx-customizer.php:33
+msgid "Left Center"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:108 nx-customizer.php:34
+msgid "Left Bottom"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:109 nx-customizer.php:35
+msgid "Right Top"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:110 nx-customizer.php:36
+msgid "Right Center"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:111 nx-customizer.php:37
+msgid "Right Bottom"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:112 nx-customizer.php:38
+msgid "Center Top"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:113 nx-customizer.php:39
+msgid "Center Center"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:114 nx-customizer.php:40
+msgid "Center Bottom"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:115 nx-customizer.php:41
+msgid "Background Position"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:116 nx-customizer.php:42
+msgid "Background Opacity"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:117 nx-customizer.php:43
+msgid "ON"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:118 nx-customizer.php:44
+msgid "OFF"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:119 nx-customizer.php:45
+msgid "All"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:120 nx-customizer.php:46
+msgid "Cyrillic"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:121 nx-customizer.php:47
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:122 nx-customizer.php:48
+msgid "Devanagari"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:123 nx-customizer.php:49
+msgid "Greek"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:124 nx-customizer.php:50
+msgid "Greek Extended"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:125 nx-customizer.php:51
+msgid "Khmer"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:126 nx-customizer.php:52
+msgid "Latin"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:127 nx-customizer.php:53
+msgid "Latin Extended"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:128 nx-customizer.php:54
+msgid "Vietnamese"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:129 nx-customizer.php:55
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:130 nx-customizer.php:56
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: inc/kirki/includes/Config.php:131 nx-customizer.php:57
+msgctxt "font style"
+msgid "Monospace"
+msgstr ""
+
+#: inc/kirki/includes/Controls/PromoControl.php:16
+msgid "http://templatesnext.org/imax/"
+msgstr ""
+
+#: inc/kirki/includes/Controls/PromoControl.php:16
+msgid "i-max Demo"
+msgstr ""
+
+#: inc/kirki/includes/Controls/PromoControl.php:17
+msgid "https://www.facebook.com/templatesnext"
+msgstr ""
+
+#: inc/kirki/includes/Controls/PromoControl.php:17 nx-customizer.php:304
+msgid "Facebook"
+msgstr ""
+
+#: inc/kirki/includes/Controls/PromoControl.php:18
+msgid "http://templatesnext.org/ispirit/landing/forums/"
+msgstr ""
+
+#: inc/kirki/includes/Controls/PromoControl.php:18
+msgid "Support"
+msgstr ""
+
+#: inc/kirki/includes/Controls/PromoControl.php:19
+msgid "http://templatesnext.org/imax/docs"
+msgstr ""
+
+#: inc/kirki/includes/Controls/PromoControl.php:19
+#: inc/meta-box/inc/common.php:53
+msgid "Documentation"
+msgstr ""
+
+#: inc/kirki/includes/Controls/PromoControl.php:20
+msgid "http://templatesnext.org/ispirit/landing/themes/"
+msgstr ""
+
+#: inc/kirki/includes/Controls/PromoControl.php:20
+msgid "Go Premium"
+msgstr ""
+
+#: inc/kirki/includes/Controls/PromoControl.php:27
+msgid "If you like my work, you can buy me"
+msgstr ""
+
+#: inc/kirki/includes/Controls/PromoControl.php:28
+msgid "1 cup of coffee $10.00 USD"
+msgstr ""
+
+#: inc/kirki/includes/Controls/PromoControl.php:29
+msgid "2 cup of coffee $20.00 USD"
+msgstr ""
+
+#: inc/kirki/includes/Controls/PromoControl.php:30
+msgid "3 cup of coffee $30.00 USD"
+msgstr ""
+
+#: inc/kirki/includes/Controls/PromoControl.php:34
+msgid "PayPal – The safer, easier way to pay online."
+msgstr ""
+
+#: inc/meta-box/demo/all-custom-post-types.php:15
+msgid "Personal Information"
+msgstr ""
+
+#: inc/meta-box/demo/all-custom-post-types.php:20
+msgid "Full name"
+msgstr ""
+
+#: inc/meta-box/demo/better-include.php:16
+#: inc/meta-box/demo/include-by-ID-or-page-template.php:8
+msgid "Meta Box Title"
+msgstr ""
+
+#: inc/meta-box/demo/better-include.php:19
+#: inc/meta-box/demo/include-by-ID-or-page-template.php:14
+msgid "Your images"
+msgstr ""
+
+#: inc/meta-box/demo/date-time-js-options.php:8
+msgid "Date Time Picker With JS Options"
+msgstr ""
+
+#: inc/meta-box/demo/date-time-js-options.php:12
+msgid "Date"
+msgstr ""
+
+#: inc/meta-box/demo/date-time-js-options.php:18
+#: inc/meta-box/demo/demo.php:193
+msgid "(yyyy-mm-dd)"
+msgstr ""
+
+#: inc/meta-box/demo/date-time-js-options.php:20
+msgid "Select Date"
+msgstr ""
+
+#: inc/meta-box/demo/date-time-js-options.php:21
+#: inc/meta-box/demo/demo.php:194
+msgid "yy-mm-dd"
+msgstr ""
+
+#: inc/meta-box/demo/date-time-js-options.php:27
+msgid "Datetime"
+msgstr ""
+
+#: inc/meta-box/demo/date-time-js-options.php:38
+msgid "Time"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:42
+msgid "Standard Fields"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:61
+msgid "Text"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:65
+msgid "Text description"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:68
+msgid "Default text value"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:74
+msgid "Checkbox"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:82
+msgid "Radio"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:88 inc/meta-box/demo/demo.php:99
+#: inc/meta-box/demo/demo.php:242 inc/meta-box/demo/demo.php:253
+#: inc/meta-box/demo/demo.php:302
+msgid "Label1"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:89 inc/meta-box/demo/demo.php:100
+#: inc/meta-box/demo/demo.php:243 inc/meta-box/demo/demo.php:254
+#: inc/meta-box/demo/demo.php:303
+msgid "Label2"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:94 inc/meta-box/demo/demo.php:297
+#: inc/meta-box/inc/fields/file-input.php:40
+msgid "Select"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:105 inc/meta-box/demo/demo.php:308
+#: inc/meta-box/demo/demo.php:333
+msgid "Select an Item"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:112
+msgid "Hidden value"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:116
+msgid "Password"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:122
+msgid "Textarea"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:123
+msgid "Textarea description"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:140
+msgid "Password is required"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:141
+msgid "Password must be at least 7 characters"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:149
+msgid "Advanced Fields"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:155
+msgid "Heading"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:157
+msgid "Optional description for this heading"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:161 inc/meta-box/demo/slider.php:9
+#: nx-customizer.php:113
+msgid "Slider"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:166 inc/meta-box/demo/slider.php:14
+msgid "$"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:167 inc/meta-box/demo/slider.php:15
+msgid " USD"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:178
+msgid "Number"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:187
+msgid "Date picker"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:202
+msgid "Datetime picker"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:216
+msgid "Time picker"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:231
+msgid "Color picker"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:237
+msgid "Checkbox list"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:248
+msgid "Autocomplete"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:263
+msgid "Email"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:265
+msgid "Email description"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:271
+msgid "Range"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:273
+msgid "Range description"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:282
+msgid "URL"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:284
+msgid "URL description"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:290
+msgid "oEmbed"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:292
+msgid "oEmbed description"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:312
+msgid "Taxonomy"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:326
+msgid "Posts (Pages)"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:342
+msgid "WYSIWYG / Rich Text Editor"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:347
+msgid "WYSIWYG default value"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:363 inc/meta-box/demo/force-delete.php:12
+msgid "File Upload"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:369
+msgid "File Advanced Upload"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:377 inc/meta-box/demo/force-delete.php:19
+msgid "Image Upload"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:383 inc/meta-box/demo/force-delete.php:25
+msgid "Thickbox Image Upload"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:389 inc/meta-box/demo/force-delete.php:32
+msgid "Plupload Image Upload"
+msgstr ""
+
+#: inc/meta-box/demo/demo.php:396
+msgid "Image Advanced Upload"
+msgstr ""
+
+#: inc/meta-box/demo/force-delete.php:8
+msgid "Test Meta Box"
+msgstr ""
+
+#: inc/meta-box/demo/image-select.php:6
+msgid "Image Select Demo"
+msgstr ""
+
+#: inc/meta-box/demo/image-select.php:10
+msgid "Layout"
+msgstr ""
+
+#: inc/meta-box/demo/map.php:6
+msgid "Google Map"
+msgstr ""
+
+#: inc/meta-box/demo/map.php:10
+msgid "Address"
+msgstr ""
+
+#: inc/meta-box/demo/map.php:12
+msgid "Hanoi, Vietnam"
+msgstr ""
+
+#: inc/meta-box/demo/map.php:16
+msgid "Location"
+msgstr ""
+
+#: inc/meta-box/demo/oembed.php:6
+msgid "oEmbed Demo"
+msgstr ""
+
+#: inc/meta-box/demo/oembed.php:10
+msgid "oEmbed(s)"
+msgstr ""
+
+#: inc/meta-box/demo/slider.php:6
+msgid "Slider Demo"
+msgstr ""
+
+#: inc/meta-box/demo/url.php:6
+msgid "URL Demo"
+msgstr ""
+
+#: inc/meta-box/demo/url.php:10
+msgid "URL(s)"
+msgstr ""
+
+#: inc/meta-box/inc/common.php:54
+msgid "Extensions"
+msgstr ""
+
+#: inc/meta-box/inc/field.php:227
+msgid "+"
+msgstr ""
+
+#: inc/meta-box/inc/field.php:240
+msgid "&#8211;"
+msgstr ""
+
+#: inc/meta-box/inc/fields/autocomplete.php:18
+#: inc/meta-box/inc/fields/autocomplete.php:83
+#: inc/meta-box/inc/fields/autocomplete.php:100
+msgid "Delete"
+msgstr ""
+
+#: inc/meta-box/inc/fields/button.php:35
+msgid "Click me"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file-advanced.php:66
+msgctxt "file upload"
+msgid "Select or Upload Files"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file-advanced.php:103
+#: inc/meta-box/inc/fields/file.php:168
+msgctxt "file upload"
+msgid "Delete"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file-advanced.php:104
+#: inc/meta-box/inc/fields/file.php:169
+msgctxt "file upload"
+msgid "Edit"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file-input.php:42
+msgid "Remove"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:98
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:111
+msgctxt "file upload"
+msgid "Upload Files"
+msgstr ""
+
+#: inc/meta-box/inc/fields/file.php:112
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr ""
+
+#: inc/meta-box/inc/fields/image-advanced.php:23
+msgid "Select Images"
+msgstr ""
+
+#: inc/meta-box/inc/fields/image-advanced.php:71
+msgctxt "image upload"
+msgid "Select or Upload Images"
+msgstr ""
+
+#: inc/meta-box/inc/fields/image-advanced.php:108
+#: inc/meta-box/inc/fields/image.php:136
+msgctxt "image upload"
+msgid "Delete"
+msgstr ""
+
+#: inc/meta-box/inc/fields/image-advanced.php:109
+#: inc/meta-box/inc/fields/image.php:137
+msgctxt "image upload"
+msgid "Edit"
+msgstr ""
+
+#: inc/meta-box/inc/fields/image.php:70
+#: inc/meta-box/inc/fields/thickbox-image.php:34
+msgctxt "image upload"
+msgid "Upload Images"
+msgstr ""
+
+#: inc/meta-box/inc/fields/image.php:71
+msgctxt "image upload"
+msgid "+ Add new image"
+msgstr ""
+
+#: inc/meta-box/inc/fields/map.php:48
+msgid "Find Address"
+msgstr ""
+
+#: inc/meta-box/inc/fields/oembed.php:55
+msgid "Embed HTML not available."
+msgstr ""
+
+#: inc/meta-box/inc/fields/oembed.php:77
+msgid "Preview"
+msgstr ""
+
+#: inc/meta-box/inc/fields/plupload-image.php:105
+msgctxt "image upload"
+msgid "Drop images here"
+msgstr ""
+
+#: inc/meta-box/inc/fields/plupload-image.php:106
+msgctxt "image upload"
+msgid "or"
+msgstr ""
+
+#: inc/meta-box/inc/fields/plupload-image.php:107
+msgctxt "image upload"
+msgid "Select Files"
+msgstr ""
+
+#: inc/meta-box/inc/fields/plupload-image.php:182
+msgctxt "image upload"
+msgid "Allowed Image Files"
+msgstr ""
+
+#: inc/meta-box/inc/fields/post.php:52
+msgid "Post"
+msgstr ""
+
+#: inc/meta-box/inc/fields/post.php:66 inc/meta-box/inc/fields/taxonomy.php:40
+#: inc/meta-box/inc/fields/user.php:62
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: inc/meta-box/inc/fields/user.php:54
+msgid "User"
+msgstr ""
+
+#: inc/meta-box/inc/meta-box.php:245
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: inc/tnext-meta.php:40
+msgid "Page Heading Options"
+msgstr ""
+
+#: inc/tnext-meta.php:58
+msgid "Hide Title"
+msgstr ""
+
+#: inc/tnext-meta.php:66
+msgid "Show Default i-max Slider"
+msgstr ""
+
+#: inc/tnext-meta.php:93
+msgid "Hide breadcrumb"
+msgstr ""
+
+#: inc/tnext-meta.php:103
+msgid "Other Slider Plugin Shortcode"
+msgstr ""
+
+#: inc/tnext-meta.php:107
+msgid ""
+"Enter a 3rd party slider shortcode, ex. meta slider, smart slider 2, wow "
+"slider, etc."
+msgstr ""
+
+#: inc/tnext-meta.php:128
+msgid "Portfolio Meta"
+msgstr ""
+
+#: inc/tnext-meta.php:149
+msgid "Portfolio Additinal Details"
+msgstr ""
+
+#: inc/tnext-meta.php:154
+msgid "Subtitle"
+msgstr ""
+
+#: inc/tnext-meta.php:156
+msgid "Enter a subtitle for use within the portfolio item index (optional)."
+msgstr ""
+
+#: inc/tnext-meta.php:161
+msgid "Portfolio Link(External)"
+msgstr ""
+
+#: inc/tnext-meta.php:163
+msgid "Enter an external link for the item (optional) (NOTE: INCLUDE HTTP://)."
+msgstr ""
+
+#: nx-customizer.php:114
+msgid "Slides details"
+msgstr ""
+
+#: nx-customizer.php:121
+msgid "Basic Settings"
+msgstr ""
+
+#: nx-customizer.php:127
+msgid "Layout Options"
+msgstr ""
+
+#: nx-customizer.php:133
+msgid "Social Links"
+msgstr ""
+
+#: nx-customizer.php:134
+msgid "Insert full URL of your social link including http:// replacing #"
+msgstr ""
+
+#: nx-customizer.php:139
+msgid "Default Blog Page"
+msgstr ""
+
+#: nx-customizer.php:147
+msgid "Slide Settings"
+msgstr ""
+
+#: nx-customizer.php:154
+msgid "Slide 1"
+msgstr ""
+
+#: nx-customizer.php:160
+msgid "Slide 2"
+msgstr ""
+
+#: nx-customizer.php:166
+msgid "Slide 3"
+msgstr ""
+
+#: nx-customizer.php:172
+msgid "Slide 4"
+msgstr ""
+
+#: nx-customizer.php:181
+msgid "More About i-max"
+msgstr ""
+
+#: nx-customizer.php:194
+msgid "Phone Number"
+msgstr ""
+
+#: nx-customizer.php:198
+msgid "Phone number that appears on top bar."
+msgstr ""
+
+#: nx-customizer.php:204
+msgid "Email Address"
+msgstr ""
+
+#: nx-customizer.php:208
+msgid "Email Id that appears on top bar."
+msgstr ""
+
+#: nx-customizer.php:214
+msgid "Site header logo"
+msgstr ""
+
+#: nx-customizer.php:215
+msgid "Width 280px, height 72px max. Upload logo for header"
+msgstr ""
+
+#: nx-customizer.php:224
+msgid "Banner Text"
+msgstr ""
+
+#: nx-customizer.php:228
+msgid ""
+"if you are using a logo and want your site title or slogan to appear on the "
+"header banner"
+msgstr ""
+
+#: nx-customizer.php:234
+msgid "Primary Color"
+msgstr ""
+
+#: nx-customizer.php:235
+msgid "Choose your theme color"
+msgstr ""
+
+#: nx-customizer.php:244
+msgid "Blog Posts Layout"
+msgstr ""
+
+#: nx-customizer.php:245
+msgid "(Choose blog posts layout (one column/two column)"
+msgstr ""
+
+#: nx-customizer.php:258
+msgid "Show Full Content"
+msgstr ""
+
+#: nx-customizer.php:259
+msgid "Show full content on blog pages"
+msgstr ""
+
+#: nx-customizer.php:268
+msgid "Wide layout"
+msgstr ""
+
+#: nx-customizer.php:269
+msgid "Check to have wide layou"
+msgstr ""
+
+#: nx-customizer.php:278
+msgid "Additional style"
+msgstr ""
+
+#: nx-customizer.php:279
+msgid "add extra style(CSS) codes here"
+msgstr ""
+
+#: nx-customizer.php:313
+msgid "Twitter"
+msgstr ""
+
+#: nx-customizer.php:322
+msgid "Flickr"
+msgstr ""
+
+#: nx-customizer.php:331
+msgid "RSS"
+msgstr ""
+
+#: nx-customizer.php:340
+msgid "Instagram"
+msgstr ""
+
+#: nx-customizer.php:349
+msgid "Google Plus"
+msgstr ""
+
+#: nx-customizer.php:358
+msgid "YouTube"
+msgstr ""
+
+#: nx-customizer.php:369
+msgid "Slide Duration"
+msgstr ""
+
+#: nx-customizer.php:370
+msgid "Slide visibility in second"
+msgstr ""
+
+#: nx-customizer.php:386
+msgid "Slide1 Title"
+msgstr ""
+
+#: nx-customizer.php:394
+msgid "Slide1 Description"
+msgstr ""
+
+#: nx-customizer.php:396
+msgid ""
+"To start setting up i-max go to Appearance &gt; Customize. Make sure you "
+"have installed recommended plugin &rdquo;TemplatesNext Toolkit&rdquo; by "
+"going appearance &gt; install plugin."
+msgstr ""
+
+#: nx-customizer.php:402
+msgid "Slide1 Link text"
+msgstr ""
+
+#: nx-customizer.php:404 nx-customizer.php:447 nx-customizer.php:490
+#: nx-customizer.php:533
+msgid "Know More"
+msgstr ""
+
+#: nx-customizer.php:410
+msgid "Slide1 Link URL"
+msgstr ""
+
+#: nx-customizer.php:418
+msgid "Slide1 Image"
+msgstr ""
+
+#: nx-customizer.php:429
+msgid "Slide2 Title"
+msgstr ""
+
+#: nx-customizer.php:437
+msgid "Slide2 Description"
+msgstr ""
+
+#: nx-customizer.php:439
+msgid ""
+"Setup your theme from Appearance &gt; Customize , boxed/wide layout, "
+"unlimited color, custom background, blog layout, social links, additiona css "
+"styling, phone number and email id, etc."
+msgstr ""
+
+#: nx-customizer.php:445
+msgid "Slide2 Link text"
+msgstr ""
+
+#: nx-customizer.php:453
+msgid "Slide2 Link URL"
+msgstr ""
+
+#: nx-customizer.php:461
+msgid "Slide2 Image"
+msgstr ""
+
+#: nx-customizer.php:472
+msgid "Slide3 Title"
+msgstr ""
+
+#: nx-customizer.php:480
+msgid "Slide3 Description"
+msgstr ""
+
+#: nx-customizer.php:482
+msgid ""
+"Once you install and activate the plugin &rdquo; TemplatesNext Toolkit "
+"&rdquo; Use the [tx] button on your editor to create the columns, services, "
+"portfolios, testimonials and custom sliders."
+msgstr ""
+
+#: nx-customizer.php:488
+msgid "Slide3 Link text"
+msgstr ""
+
+#: nx-customizer.php:496
+msgid "Slide3 Link URL"
+msgstr ""
+
+#: nx-customizer.php:504
+msgid "Slide3 Image"
+msgstr ""
+
+#: nx-customizer.php:515
+msgid "Slide4 Title"
+msgstr ""
+
+#: nx-customizer.php:523
+msgid "Slide4 Description"
+msgstr ""
+
+#: nx-customizer.php:525
+msgid ""
+"Customize your pages with page options (meta). Use default theme slider or "
+"itrans slider or any 3rd party slider on any page"
+msgstr ""
+
+#: nx-customizer.php:531
+msgid "Slide4 Link text"
+msgstr ""
+
+#: nx-customizer.php:539
+msgid "Slide4 Link URL"
+msgstr ""
+
+#: nx-customizer.php:547
+msgid "Slide4 Image"
+msgstr ""
+
+#: nx-customizer.php:558
+msgid "Hide i-max Slider"
+msgstr ""
+
+#: nx-customizer.php:559
+msgid "Turn Off or On to hide/show default i-max slider"
+msgstr ""
+
+#: nx-customizer.php:594
+msgid "TemplatesNext Promo"
+msgstr ""
+
+#: tag.php:20
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: taxonomy-post_format.php:22
+#, php-format
+msgid "%s Archives"
+msgstr ""
