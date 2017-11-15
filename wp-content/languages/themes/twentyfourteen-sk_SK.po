@@ -1,18 +1,19 @@
-# Translation of Twenty Fourteen in Slovak
-# This file is distributed under the same license as the Twenty Fourteen package.
+# Translation of Themes - Twenty Fourteen in Slovak
+# This file is distributed under the same license as the Themes - Twenty Fourteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-07-27 22:21:25+0000\n"
+"PO-Revision-Date: 2015-12-19 14:25:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Twenty Fourteen\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sk\n"
+"Project-Id-Version: Themes - Twenty Fourteen\n"
 
-#. Author URI of the plugin/theme
-msgid "https://wordpress.org/"
-msgstr "https://wordpress.org/"
+#. Description of the plugin/theme
+msgid "In 2014, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier."
+msgstr "S témou Twenty Fourteen môžete vytvoriť moderný magazín s responzívnym dizajnom. Obohaťte obsah svojej stránky pomocou mriežky alebo slidera. Použite 3 oblasti widgetov pre úpravu dizajnu a zmeňte rozloženie stránky na celú šírku. Stránka prispievateľov zobrazí vašich autorov. Vytvorenie magazínovej stránky pomocou WordPress nebolo nikdy jednoduchšie."
 
 #. Template Name of the plugin/theme
 msgid "Full Width Page"
@@ -22,107 +23,95 @@ msgstr "Stránka na celú šírku"
 msgid "Contributor Page"
 msgstr "Stránka prispievateľov"
 
-#. Author of the plugin/theme
-msgid "the WordPress team"
-msgstr "WordPress"
-
-#. Description of the plugin/theme
-msgid "In 2014, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier."
-msgstr "S témou Twenty Fourteen môžete vytvoriť moderný magazín s responzívnym dizajnom. Obohaťte obsah svojej stránky pomocou mriežky alebo slidera. Použite 3 oblasti widgetov pre úpravu dizajnu a zmeňte rozloženie stránky na celú šírku. Stránka prispievateľov zobrazí vašich autorov. Vytvorenie magazínovej stránky pomocou WordPress nebolo nikdy jednoduchšie."
-
-#. Theme URI of the plugin/theme
-msgid "https://wordpress.org/themes/twentyfourteen/"
-msgstr "https://wordpress.org/themes/twentyfourteen/"
-
 #: tag.php:22
 msgid "Tag Archives: %s"
-msgstr "Archívy značky: %s"
+msgstr "Archív značiek: %s"
 
 #: search.php:18
 msgid "Search Results for: %s"
-msgstr "Výsledky hľadania: %s"
+msgstr "Výsledky vyhľadávania pre: %s"
 
-#: inc/widgets.php:261
+#: inc/widgets.php:282
 msgid "Post format to show:"
 msgstr "Formát príspevku na zobrazenie:"
 
-#: inc/widgets.php:258
+#: inc/widgets.php:279
 msgid "Number of posts to show:"
-msgstr "Počet príspevkov na zobrazenie:"
+msgstr "Zobrazovaný počet článkov:"
 
-#: inc/widgets.php:255
+#: inc/widgets.php:276
 msgid "Title:"
 msgstr "Nadpis:"
 
 #. translators: used with More archives link
-#: inc/widgets.php:206
+#: inc/widgets.php:227
 msgid "%s <span class=\"meta-nav\">&rarr;</span>"
 msgstr "%s <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/widgets.php:162
+#: inc/widgets.php:183
 msgid "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photo</a>."
 msgid_plural "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photos</a>."
 msgstr[0] "Táto galéria obsahuje <a href=\"%1$s\" rel=\"bookmark\">%2$s fotku</a>."
 msgstr[1] "Táto galéria obsahuje <a href=\"%1$s\" rel=\"bookmark\">%2$s fotky</a>."
 msgstr[2] "Táto galéria obsahuje <a href=\"%1$s\" rel=\"bookmark\">%2$s fotiek</a>."
 
-#: inc/widgets.php:127 inc/widgets.php:172
+#: inc/widgets.php:148 inc/widgets.php:193
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Čítať viac <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Pokračovať v čítaní <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/widgets.php:80
+#: inc/widgets.php:101
 msgid "More asides"
 msgstr "Viac asides"
 
-#: inc/widgets.php:79 taxonomy-post_format.php:30
+#: inc/widgets.php:100 taxonomy-post_format.php:30
 msgid "Asides"
 msgstr "Asides"
 
-#: inc/widgets.php:75
+#: inc/widgets.php:96
 msgid "More galleries"
 msgstr "Viac galérií"
 
-#: inc/widgets.php:74 taxonomy-post_format.php:48
+#: inc/widgets.php:95 taxonomy-post_format.php:48
 msgid "Galleries"
 msgstr "Galérie"
 
-#: inc/widgets.php:71
+#: inc/widgets.php:92
 msgid "More links"
 msgstr "Viac odkazov"
 
-#: inc/widgets.php:70 taxonomy-post_format.php:45
+#: inc/widgets.php:91 taxonomy-post_format.php:45
 msgid "Links"
 msgstr "Odkazy"
 
-#: inc/widgets.php:67
+#: inc/widgets.php:88
 msgid "More quotes"
 msgstr "Viac citácií"
 
-#: inc/widgets.php:66 taxonomy-post_format.php:42
+#: inc/widgets.php:87 taxonomy-post_format.php:42
 msgid "Quotes"
 msgstr "Citáty"
 
-#: inc/widgets.php:63
+#: inc/widgets.php:84
 msgid "More audio"
 msgstr "Viac hudby"
 
-#: inc/widgets.php:62 taxonomy-post_format.php:39
+#: inc/widgets.php:83 taxonomy-post_format.php:39
 msgid "Audio"
-msgstr "Nahrávky"
+msgstr "Audio"
 
-#: inc/widgets.php:59
+#: inc/widgets.php:80
 msgid "More videos"
 msgstr "Viac videí"
 
-#: inc/widgets.php:58 taxonomy-post_format.php:36
+#: inc/widgets.php:79 taxonomy-post_format.php:36
 msgid "Videos"
 msgstr "Videá"
 
-#: inc/widgets.php:55
+#: inc/widgets.php:76
 msgid "More images"
 msgstr "Viac obrázkov"
 
-#: inc/widgets.php:54 taxonomy-post_format.php:33
+#: inc/widgets.php:75 taxonomy-post_format.php:33
 msgid "Images"
 msgstr "Obrázky"
 
@@ -136,7 +125,7 @@ msgstr "Twenty Fourteen Ephemera"
 
 #: inc/template-tags.php:109
 msgid "Sticky"
-msgstr "Zvýrazniť"
+msgstr "Pripnuté"
 
 #: inc/template-tags.php:92
 msgid "<span class=\"meta-nav\">Next Post</span>%title"
@@ -152,7 +141,7 @@ msgstr "<span class=\"meta-nav\">Publikované v</span>%title"
 
 #: inc/template-tags.php:85
 msgid "Post navigation"
-msgstr "Navigácia príspevkov"
+msgstr "Navigácia článkami"
 
 #: inc/template-tags.php:58
 msgid "Posts navigation"
@@ -174,63 +163,63 @@ msgstr "Nezobraziť značku na rozhraní."
 msgid "Tag Name"
 msgstr "Názov značky"
 
-#: inc/customizer.php:110
+#: inc/customizer.php:147
 msgid "For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s\">Twenty Fourteen documentation</a>."
 msgstr "Pre podrobnejší návod, viac tipov a trikov navštívte <a href=\"%s\">dokumentáciu Twenty Fourteen</a>."
 
-#: inc/customizer.php:109
+#: inc/customizer.php:146
 msgid "Enhance your site design by using <a href=\"%s\">Featured Images</a> for posts you&rsquo;d like to stand out (also known as post thumbnails). This allows you to associate an image with your post without inserting it. Twenty Fourteen uses featured images for posts and pages&mdash;above the title&mdash;and in the Featured Content area on the home page."
 msgstr "Vylepšte  dizajn vašej stránky pomocou <a href=\"%s\">prezentačných obrázkov</a> k príspevkom, ktoré by ste chceli zvýrazniť. Toto vám dovolí priradiť obrázok k príspevku bez toho aby ste ho museli vložiť dnu. Téma Twenty Fourteen používa prezentačné obrázky pre príspevky a stránky nad nadpisom, v oblasti odporúčaného obsahu a na domácej stránke."
 
-#: inc/customizer.php:108
+#: inc/customizer.php:145
 msgid "The home page features your choice of up to 6 posts prominently displayed in a grid or slider, controlled by a <a href=\"%1$s\">tag</a>; you can change the tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If no posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed instead."
-msgstr "Domáca stránka poskytuje možnosť zobrazenia až 6 promovaných príspevkov v mriežke alebo slideri. Pomocou  <a href=\"%1$s\">značiek</a> môžete meniť rozloženie na stránke<a href=\"%2$s\">Vzhľadu &rarr; úprav</a>. Ak žiadne príspevky nebudú obsahovať túto značku, budú použité <a href=\"%3$s\">zvýraznené príspevky</a>."
+msgstr "Domáca stránka poskytuje možnosť zobrazenia až 6 promovaných príspevkov v mriežke alebo slideri. Pomocou  <a href=\"%1$s\">značiek</a> môžete meniť rozloženie na stránke<a href=\"%2$s\">Vzhľadu &rarr; úprav</a>. Ak žiadne príspevky nebudú obsahovať túto značku, budú použité <a href=\"%3$s\">pripnuté príspevky</a>."
 
-#. #-#-#-#-#  twentyfourteen.pot (Twenty Fourteen 1.4)  #-#-#-#-#
+#. #-#-#-#-#  twentyfourteen.pot (Twenty Fourteen 2.0)  #-#-#-#-#
 #. Theme Name of the plugin/theme
-#: inc/customizer.php:105
+#: inc/customizer.php:142
 msgid "Twenty Fourteen"
 msgstr "Twenty Fourteen"
 
-#: inc/customizer.php:61
+#: inc/customizer.php:74
 msgid "Slider"
 msgstr "Slider"
 
-#: inc/customizer.php:60
+#: inc/customizer.php:73
 msgid "Grid"
 msgstr "Mriežka"
 
-#: inc/customizer.php:56
+#: inc/customizer.php:69
 msgid "Layout"
 msgstr "Rozloženie"
 
-#: inc/customizer.php:42 inc/customizer.php:108 inc/featured-content.php:405
+#: inc/customizer.php:55 inc/customizer.php:145 inc/featured-content.php:405
 #: inc/featured-content.php:414 inc/featured-content.php:474
 msgctxt "featured content default tag slug"
 msgid "featured"
 msgstr "odporúčané"
 
-#: inc/customizer.php:41 inc/featured-content.php:404
+#: inc/customizer.php:54 inc/featured-content.php:404
 msgid "Use a <a href=\"%1$s\">tag</a> to feature your posts. If no posts match the tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
-msgstr "Používajte <a href=\"%1$s\">značky</a> pre odporúčanie príspevkov. Ak k značke nie je možné priradiť žiaden príspevok, bude použítý <a href=\"%2$s\">zvýraznený príspevok</a>."
+msgstr "Používajte <a href=\"%1$s\">značky</a> pre odporúčanie príspevkov. Ak k značke nie je možné priradiť žiaden príspevok, bude použítý <a href=\"%2$s\">pripnutý príspevok</a>."
 
-#: inc/customizer.php:40 inc/featured-content.php:403
+#: inc/customizer.php:53 inc/featured-content.php:403
 msgid "Featured Content"
 msgstr "Odporúčaný obsah"
 
-#: inc/customizer.php:34 inc/customizer.php:35
+#: inc/customizer.php:47 inc/customizer.php:48
 msgid "Background may only be visible on wide screens."
 msgstr "Pozadie môže byť viditeľné iba na širokých obrazovkách."
 
-#: inc/customizer.php:31 inc/customizer.php:32
+#: inc/customizer.php:44 inc/customizer.php:45
 msgid "May only be visible on wide screens."
 msgstr "Môže byť viditeľné iba na širokouhlých obrazovkách."
 
-#: inc/customizer.php:27
+#: inc/customizer.php:40
 msgid "Display Site Title &amp; Tagline"
 msgstr "Zobraziť nadpis stránky a slogan"
 
-#: inc/customizer.php:24
+#: inc/customizer.php:37
 msgid "Site Title Color"
 msgstr "Farba nadpisu stránky"
 
@@ -258,53 +247,53 @@ msgstr "Hlavné menu"
 msgid "Search"
 msgstr "Hľadať"
 
-#: functions.php:495
+#: functions.php:523
 msgid "Page %s"
-msgstr "Stránka %s"
+msgstr "Strana %s"
 
-#: functions.php:376
+#: functions.php:404
 msgid "%d Article"
 msgid_plural "%d Articles"
 msgstr[0] "%d článok"
 msgstr[1] "%d články"
 msgstr[2] "%d článkov"
 
-#: functions.php:259
+#: functions.php:262
 msgid "Next"
-msgstr "Nasledujúca"
+msgstr "Ďalej"
 
-#: functions.php:258
+#: functions.php:261
 msgid "Previous"
 msgstr "Predchádzajúca"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Lato, translate this to 'off'. Do not translate into your own language.
-#: functions.php:213
+#: functions.php:216
 msgctxt "Lato font: on or off"
 msgid "on"
 msgstr "Zapnutý"
 
-#: functions.php:191
+#: functions.php:194
 msgid "Appears in the footer section of the site."
-msgstr "Zobrazí sa v pätičke webovej stránky."
+msgstr "Zobrazí sa v pätičke webstránky."
 
-#: functions.php:189
+#: functions.php:192
 msgid "Footer Widget Area"
 msgstr "Oblasť widgetu v pätičke"
 
-#: functions.php:182
+#: functions.php:185
 msgid "Additional sidebar that appears on the right."
 msgstr "Prídavný sidebar sa zobrazí vpravo."
 
-#: functions.php:180
+#: functions.php:183
 msgid "Content Sidebar"
 msgstr "Obsah sidebaru"
 
-#: functions.php:173
+#: functions.php:176
 msgid "Main sidebar that appears on the left."
 msgstr "Hlavný sidebar sa zobrazuje vľavo."
 
-#: functions.php:171
+#: functions.php:174
 msgid "Primary Sidebar"
 msgstr "Primárny sidebar"
 
@@ -320,13 +309,9 @@ msgstr "Vrchné hlavné menu"
 msgid "Proudly powered by %s"
 msgstr "Hrdo poháňa %s"
 
-#: footer.php:21
-msgid "http://wordpress.org/"
-msgstr "http://sk.wordpress.org/"
-
 #: content-none.php:27
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Vyzerá to, že nemôžeme nájsť čo hľadáte. Možno pomôže vyhladávanie."
+msgstr "Nie je možné nájsť to, čo hľadáte. Skúste použiť vyhľadávanie."
 
 #: content-none.php:22
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
@@ -338,7 +323,7 @@ msgstr "Pripravený publikovať váš prvý príspevok? <a href=\"%1$s\">Začnit
 
 #: content-none.php:12
 msgid "Nothing Found"
-msgstr "Žiadny obsah sa nenašiel"
+msgstr "Nenašlo sa"
 
 #: content-aside.php:53 content-audio.php:53 content-gallery.php:53
 #: content-image.php:53 content-link.php:53 content-page.php:22
@@ -362,21 +347,21 @@ msgstr "Upraviť"
 
 #: content-aside.php:37 content-audio.php:37 content-gallery.php:37
 #: content-image.php:37 content-link.php:37 content-quote.php:37
-#: content-video.php:37 content.php:38 inc/widgets.php:194
+#: content-video.php:37 content.php:38 inc/widgets.php:215
 msgid "% Comments"
-msgstr "Komentárov: %"
+msgstr "Komentáre (%)"
 
 #: content-aside.php:37 content-audio.php:37 content-gallery.php:37
 #: content-image.php:37 content-link.php:37 content-quote.php:37
-#: content-video.php:37 content.php:38 inc/widgets.php:194
+#: content-video.php:37 content.php:38 inc/widgets.php:215
 msgid "1 Comment"
-msgstr "1 komentár"
+msgstr "Jeden komentár"
 
 #: content-aside.php:37 content-audio.php:37 content-gallery.php:37
 #: content-image.php:37 content-link.php:37 content-quote.php:37
-#: content-video.php:37 content.php:38 inc/widgets.php:194
+#: content-video.php:37 content.php:38 inc/widgets.php:215
 msgid "Leave a comment"
-msgstr "Komentovať"
+msgstr "Vložiť komentár"
 
 #: content-aside.php:17 content-audio.php:17 content-featured-post.php:28
 #: content-gallery.php:17 content-image.php:17 content-link.php:17
@@ -387,7 +372,7 @@ msgstr ","
 
 #: comments.php:59
 msgid "Comments are closed."
-msgstr "Komentáre sú zakázané."
+msgstr "Nie je možné pridávať komentáre."
 
 #: comments.php:36 comments.php:54
 msgid "Newer Comments &rarr;"
@@ -399,7 +384,7 @@ msgstr "&larr; Staršie komentáre"
 
 #: comments.php:34 comments.php:52
 msgid "Comment navigation"
-msgstr "Navigácia komentárov"
+msgstr "Navigácia komentármi"
 
 #: comments.php:27
 msgid "One thought on &ldquo;%2$s&rdquo;"
@@ -410,15 +395,15 @@ msgstr[2] "%1$s názorov na &ldquo;%2$s&rdquo;"
 
 #: category.php:20
 msgid "Category Archives: %s"
-msgstr "Archívy kategórie: %s"
+msgstr "Archív kategorií: %s"
 
 #: author.php:31
 msgid "All posts by %s"
-msgstr "Všetky príspevky od %s"
+msgstr "Všetky príspevky %s"
 
 #: archive.php:40 taxonomy-post_format.php:51
 msgid "Archives"
-msgstr "Archívy"
+msgstr "Archív"
 
 #: archive.php:37
 msgctxt "yearly archives date format"
@@ -444,8 +429,22 @@ msgstr "Denné archívy: %s"
 
 #: 404.php:21
 msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "Vyzerá to, že sa na tomto mieste nič nenašlo. Skúste použiť vyhľadávanie."
+msgstr "Vyzerá to, že nič sa nenašlo. Skúste hľadať?"
 
 #: 404.php:17
 msgid "Not Found"
-msgstr "Nenájdená"
+msgstr "Nenašlo sa"
+
+#. #-#-#-#-#  twentyfourteen.pot (Twenty Fourteen 2.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:21
+msgid "https://wordpress.org/"
+msgstr "https://sk.wordpress.org/"
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "tím WordPress"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentyfourteen/"
+msgstr "https://wordpress.org/themes/twentyfourteen/"
