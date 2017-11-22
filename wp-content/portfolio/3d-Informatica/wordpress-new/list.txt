@@ -1,0 +1,48 @@
+ Il volume nell'unit… D Š Pracovny
+ Numero di serie del volume: C96D-9AA0
+
+ Directory di D:\Projekty\Flex3\wp-0ics\wp-content\portfolio\3d-Informatica\wordpress-new
+
+22/11/2017  11:11    <DIR>          .
+22/11/2017  11:11    <DIR>          ..
+10/11/2017  13:05             5.898 albo.png
+10/11/2017  13:05            18.629 albo_big.png
+10/11/2017  13:05            11.283 albo_small.png
+21/11/2017  12:14             8.032 bridge_assicura.png
+21/11/2017  12:14             9.694 bridge_assiste.png
+21/11/2017  10:59            23.959 bridge_immagini.png
+21/11/2017  12:13            11.658 bridge_ponte.png
+21/11/2017  12:14             6.704 bridge_report.png
+21/11/2017  12:36             3.802 b_assicura.png
+21/11/2017  12:04             3.687 b_assiste.png
+21/11/2017  12:36             4.345 b_ponte.png
+21/11/2017  12:37             2.648 b_report.png
+10/11/2017  12:48             2.748 customform.png
+10/11/2017  12:30            10.691 customform_big.png
+10/11/2017  12:30             6.333 customform_small.png
+10/11/2017  13:13             5.559 delibere.png
+10/11/2017  13:13            19.779 delibere_big.png
+10/11/2017  13:13            11.476 delibere_small.png
+10/11/2017  12:56             3.520 deposito.png
+10/11/2017  12:56            11.018 deposito_big.png
+10/11/2017  12:55             6.910 deposito_small.png
+17/11/2017  12:58            27.626 extraway_immagini.png
+10/11/2017  13:46             4.489 fatturaPA.png
+10/11/2017  13:46            15.848 fatturaPA_big.png
+10/11/2017  13:46             8.985 fatturaPA_small.png
+22/11/2017  11:11                 0 list.txt
+10/11/2017  13:50             4.579 mail.png
+10/11/2017  13:50            15.815 mail_pec_big.png
+10/11/2017  13:50             9.435 mail_pec_small.png
+20/11/2017  12:11            26.420 odysseus_immagini.png
+20/11/2017  13:55            17.045 strato_alfanumerico.png
+20/11/2017  13:55            24.075 strato_cartografico.png
+20/11/2017  13:54            13.382 strato_iconografico.png
+20/11/2017  13:56             3.992 s_alfanumerico.png
+20/11/2017  13:55             6.073 s_cartografico.png
+20/11/2017  13:54             2.459 s_iconografico.png
+10/11/2017  13:40             4.669 workflow.png
+10/11/2017  13:40            15.846 workflow_big.png
+10/11/2017  13:40             8.419 workflow_small.png
+              39 File        397.530 byte
+               2 Directory  52.072.898.560 byte disponibili
