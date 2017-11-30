@@ -1,12 +1,12 @@
 === EU Cookie Law ===
 Contributors: alexmoss, Milmor, pleer, ShaneJones
-Version:	2.10
+Version:	2.11
 Stable tag:	trunk
 Author:		Alex Moss, Marco Milesi, Peadig, Shane Jones
 Author URI:   https://profiles.wordpress.org/milmor/
 Tags: eu cookie, cookies, law, analytics, european, italia, garante, privacy, eu cookie law, italy, cookie, consent, europe
-Requires at least: 4.3
-Tested up to: 4.7
+Requires at least: 4.4
+Tested up to: 4.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -155,6 +155,9 @@ Click on the translations link to open the translation editor and adjust the str
 9. Fully customizable
 
 == Changelog ==
+
+= 2.11 24.11.2017 =
+* Checked and confirmed WP 4.9 compatibility
 
 = 2.10 05.01.2017 =
 * **Added** filter eu_cookie_law_frontend_banner to change banner design with WordPress actions
