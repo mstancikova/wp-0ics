@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-11-23 16:41:14+0000\n"
+"PO-Revision-Date: 2017-12-18 10:20:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5088,15 +5088,6 @@ msgstr "Zadajte nadpis sem"
 msgid "All"
 msgstr "Všetko"
 
-#. translators: %s: Time since the last update
-#: wp-admin/includes/class-wp-media-list-table.php:441
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:597
-#: wp-admin/includes/class-wp-posts-list-table.php:985
-#: wp-admin/includes/plugin-install.php:580 wp-admin/includes/revision.php:209
-#: wp-admin/includes/revision.php:251
-msgid "%s ago"
-msgstr "pred %s"
-
 #: wp-admin/includes/class-wp-theme-install-list-table.php:419
 #: wp-admin/includes/class-wp-themes-list-table.php:230
 #: wp-admin/includes/plugin-install.php:573
@@ -5157,6 +5148,15 @@ msgstr "Plugin"
 #: wp-admin/options-general.php:318 wp-admin/options-general.php:355
 msgid "Preview:"
 msgstr "Náhľad:"
+
+#. translators: %s: Time since the last update
+#: wp-admin/includes/class-wp-media-list-table.php:441
+#: wp-admin/includes/class-wp-plugin-install-list-table.php:597
+#: wp-admin/includes/class-wp-posts-list-table.php:985
+#: wp-admin/includes/plugin-install.php:580 wp-admin/includes/revision.php:209
+#: wp-admin/includes/revision.php:251
+msgid "%s ago"
+msgstr "%s"
 
 #: wp-admin/includes/plugin-install.php:287
 #: wp-admin/includes/theme-install.php:67

@@ -1930,7 +1930,7 @@ msgctxt "New user notification email subject"
 msgid "[%1$s] Activate %2$s"
 msgstr "[%1$s] Aktivovať používateľa: %2$s"
 
-#: wp-includes/widgets.php:1395 wp-includes/widgets.php:1504
+#: wp-includes/widgets.php:1398 wp-includes/widgets.php:1507
 msgid "RSS Error:"
 msgstr "RSS chyba:"
 
@@ -9912,31 +9912,31 @@ msgctxt "widgets"
 msgid "%1$s on %2$s"
 msgstr "%1$s komentoval %2$s"
 
-#: wp-includes/widgets.php:1426
+#: wp-includes/widgets.php:1429
 msgid "Untitled"
 msgstr "Nepomenovaný"
 
-#: wp-includes/widgets.php:1510
+#: wp-includes/widgets.php:1513
 msgid "Enter the RSS feed URL here:"
 msgstr "Sem napíšte adresu RSS kanálu:"
 
-#: wp-includes/widgets.php:1513
+#: wp-includes/widgets.php:1516
 msgid "Give the feed a title (optional):"
 msgstr "Napíšte názov kanálu (nepovinné):"
 
-#: wp-includes/widgets.php:1516
+#: wp-includes/widgets.php:1519
 msgid "How many items would you like to display?"
 msgstr "Koľko položiek si želáte zobraziť?"
 
-#: wp-includes/widgets.php:1526
+#: wp-includes/widgets.php:1529
 msgid "Display item content?"
 msgstr "Zobraziť obsah položky?"
 
-#: wp-includes/widgets.php:1529
+#: wp-includes/widgets.php:1532
 msgid "Display item author if available?"
 msgstr "Zobraziť autora položky, ak existuje?"
 
-#: wp-includes/widgets.php:1532
+#: wp-includes/widgets.php:1535
 msgid "Display item date?"
 msgstr "Zobraziť dátum položky?"
 
@@ -10844,7 +10844,7 @@ msgstr "Úprava"
 msgid "Cannot create a user with an empty login name."
 msgstr "Nemožno vytvoriť užívateľa bez prihlasovacieho mena."
 
-#: wp-includes/rss.php:917 wp-includes/widgets.php:1410
+#: wp-includes/rss.php:917 wp-includes/widgets.php:1413
 msgid "An error has occurred, which probably means the feed is down. Try again later."
 msgstr "Vyskytla sa chyba; kanál je pravdepodobne nefunkčný. Skúste to neskôr znovu."
 
@@ -11464,7 +11464,7 @@ msgstr "Jeden komentár"
 msgid "Edit This"
 msgstr "Upraviť"
 
-#: wp-includes/category-template.php:1139
+#: wp-includes/category-template.php:1131
 msgid "Tags: "
 msgstr "Značky:"
 
