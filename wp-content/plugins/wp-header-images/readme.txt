@@ -1,18 +1,11 @@
 ﻿=== WP Header Images ===
-
 Contributors: fahadmahmood
-
 Tags: header images, images, header, custom header, custom images, page header, head image, slideshow, dynamic header, dynamic images
 Requires at least: 3.0.1
-
-
-Tested up to: 4.7
-
-
-Stable tag: 1.5.3
+Tested up to: 4.9
+Stable tag: 1.5.4
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
 A great WordPress plugin which helps you to choose a unique image for each menu page.
 
 == Description ==
@@ -118,6 +111,8 @@ It's better to post on support forum but if you need it be fixed on urgent basis
 9. WP Header Images > How to clear/remove header images?
 
 == Changelog ==
+= 1.5.4 =
+* Sanitized input and fixed direct file access issues.
 = 1.5.3 =
 * Metadata work in progress for slider.
 = 1.5.2 =
@@ -158,6 +153,8 @@ It's better to post on support forum but if you need it be fixed on urgent basis
 * Initial Commit
 
 == Upgrade Notice ==
+= 1.5.4 =
+Sanitized input and fixed direct file access issues.
 = 1.5.3 =
 No need to update.
 = 1.5.2 =

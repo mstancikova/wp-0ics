@@ -1,13 +1,22 @@
-<?php
-	defined( 'ABSPATH' ) or die( __('No script kiddies please!', 'wp-header-images') );
+<?php defined( 'ABSPATH' ) or die( __('No script kiddies please!', 'wp-header-images') );
 
 
+	function sanitize_wphi_data( $input ) {
+
+		if(is_array($input)){
+		
+			$new_input = array();
 	
-
-	//FOR QUICK DEBUGGING
-
-	
-
+			foreach ( $input as $key => $val ) {
+				$new_input[ $key ] = (is_array($val)?sanitize_wphi_data($val):sanitize_text_field( $val ));
+			}
+			
+		}else{
+			$new_input = sanitize_text_field($input);
+		}
+		
+		return $new_input;
+	}
 
 
 	if(!function_exists('pre')){

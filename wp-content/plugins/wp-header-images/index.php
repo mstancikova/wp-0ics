@@ -1,45 +1,20 @@
-<?php 
-	defined( 'ABSPATH' ) or die( __('No script kiddies please!', 'wp-header-images') );
+<?php defined( 'ABSPATH' ) or die( __('No script kiddies please!', 'wp-header-images') );
 /*
-
-
-
 Plugin Name: WP Header Images
-
-
-
 Plugin URI: http://www.websitedesignwebsitedevelopment.com/wordpress/plugins/wp-header-images
-
-
-
 Description: WP Header Images is a great plugin to implement custom header images for each page. You can set images easily and later can manage CSS from your theme.
-
-
-
-Version: 1.5.3
-
-
-
+Version: 1.5.4
 Author: Fahad Mahmood 
-
-
-
 Author URI: http://www.androidbubbles.com
-
-
-
 License: GPL2
-
 This WordPress Plugin is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 2 of the License, or
-any later version.
- 
+any later version. 
 This free software is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
- 
+GNU General Public License for more details. 
 You should have received a copy of the GNU General Public License
 along with this software. If not, see http://www.gnu.org/licenses/gpl-2.0.html.
 */ 

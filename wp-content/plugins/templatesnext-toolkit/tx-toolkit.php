@@ -3,7 +3,7 @@
 /*
 Plugin Name: TemplatesNext ToolKit
 Description: Custom Portfolio and Shortcode functionality for TemplatesNext Wordpress Themes
-Version: 2.0.9
+Version: 3.1.0
 Author: TemplatesNext
 Author URI: http://templatesnext.org/
 License: GPLv2 or later
@@ -117,11 +117,6 @@ if(!defined('TX_TOOLKIT_PATH')){
 }
 if(!defined('TX_TOOLKIT_URL')){
 	define('TX_TOOLKIT_URL', plugin_dir_url(__FILE__) );
-}
-
-require( 'inc/class-remote-notification-client.php' );
-if ( function_exists( 'tx_add_notification' ) ) {
-    tx_add_notification( 57, '4c037aa922a5d96c', 'http://www.templatesnext.org/icreate/' );
 }
 
 // including page Builder Widgets

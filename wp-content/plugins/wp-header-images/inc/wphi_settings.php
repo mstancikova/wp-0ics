@@ -10,7 +10,21 @@
 			} else {
 				add_option( $key, $value, '', 'no' );
 			}}*/
-			update_option( 'wp_header_images', $_POST['header_images']);
+			
+			if ( 
+				! isset( $_POST['wphi_nonce_action_field'] ) 
+				|| ! wp_verify_nonce( $_POST['wphi_nonce_action_field'], 'wphi_nonce_action' ) 
+			) {
+			
+			   print 'Sorry, your nonce did not verify.';
+			   exit;
+			
+			} else {
+			
+			   // process form data
+			   update_option( 'wp_header_images', sanitize_wphi_data($_POST['header_images']));
+			}			
+			
 			
 		
 		
@@ -148,6 +162,7 @@ template_str=\'&lt;div class=&quot;header_image&quot;&gt;&lt;h2 style=&quot;back
     
     </div>
 <form method="post" action="">  
+<?php wp_nonce_field( 'wphi_nonce_action', 'wphi_nonce_action_field' ); ?>
 <input type="hidden" name="hi_fields_submitted" value="submitted" />
 <p class="submit"><input type="submit" name="Submit" class="button-primary" value="<?php _e( 'Save Changes','wp-header-images'); ?>" /></p> 
 <div class="wphi_settings">
