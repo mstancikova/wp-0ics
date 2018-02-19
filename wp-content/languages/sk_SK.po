@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-11-14 07:23:28+0000\n"
+"PO-Revision-Date: 2018-02-06 10:08:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,11 +36,21 @@ msgstr ","
 msgid "number_format_thousands_sep"
 msgstr " "
 
-#: wp-includes/class-wp-customize-manager.php:4135
+#. translators: %s: User who is customizing the changeset in customizer.
+#: wp-includes/class-wp-customize-manager.php:3970
+msgid "%s is already customizing this changeset. Do you want to take over?"
+msgstr "%s práve upravuje tento súbor zmien. Chcete prevziať kontrolu?"
+
+#. translators: %s: User who is customizing the changeset in customizer.
+#: wp-includes/class-wp-customize-manager.php:3968
+msgid "%s is already customizing this changeset. Please wait until they are done to try customizing. Your latest changes have been autosaved."
+msgstr "%s práve upravuje tento súbor zmien. Počkajte kým dokončí prácu a skúste to znovu. Vaše najnovšie zmeny boli automaticky uložené."
+
+#: wp-includes/class-wp-customize-manager.php:4172
 msgid "Update anyway, even though it might break your site?"
 msgstr "Aktualizovať, napriek tomu, že to môže znefunkčniť webovú stránku?"
 
-#: wp-includes/wp-db.php:1290
+#: wp-includes/wp-db.php:1283
 msgid "The query only expected one placeholder, but an array of multiple placeholders was sent."
 msgstr "Očakávaný bol iba jeden zástupný text, no bolo odoslané pole viacerých zástupných textov."
 
@@ -75,7 +85,7 @@ msgctxt "tags"
 msgid "Most Used"
 msgstr "Najpoužívanejšie"
 
-#: wp-includes/class-wp-customize-nav-menus.php:950
+#: wp-includes/class-wp-customize-nav-menus.php:966
 msgid "Click &#8220;Next&#8221; to start adding links to your new menu."
 msgstr "Kliknite &#8222; Ďalej &#8220; a pridajte odkazy do vášho nového menu."
 
@@ -89,7 +99,7 @@ msgctxt "post action/button label"
 msgid "Schedule"
 msgstr "Naplánovať"
 
-#: wp-includes/class-wp-customize-manager.php:4588
+#: wp-includes/class-wp-customize-manager.php:4627
 #: wp-includes/script-loader.php:554
 msgctxt "customizer changeset action/button label"
 msgid "Schedule"
@@ -119,17 +129,17 @@ msgstr "Pridať navigačné menu do bočného panelu. "
 msgid "%s has taken over and is currently customizing."
 msgstr "%s prevzal kontrolu a práve prispôsobuje."
 
-#: wp-includes/class-wp-customize-manager.php:3194
+#: wp-includes/class-wp-customize-manager.php:3212
 msgid "Security check failed."
 msgstr "Kontrola zabezpečenia zlyhala."
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:4105
+#: wp-includes/class-wp-customize-manager.php:3977
 msgid "%s is already customizing this site. Do you want to take over?"
 msgstr "%s práve prispôsobuje túto webovú stránku. Chcete to prevziať?"
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:4110
+#: wp-includes/class-wp-customize-manager.php:3975
 msgid "%s is already customizing this site. Please wait until they are done to try customizing. Your latest changes have been autosaved."
 msgstr "%s práve prispôsobuje túto webovú stránku. Počkajte, kým neskončí, aby ste si vyskúšali prispôsobenie. Vaše posledné zmeny boli automaticky uložené."
 
@@ -137,23 +147,23 @@ msgstr "%s práve prispôsobuje túto webovú stránku. Počkajte, kým neskonč
 msgid "Looks like something&#8217;s gone wrong. Wait a couple seconds, and then try again."
 msgstr "Zdá sa, že sa niečo pokazilo. Počkajte pár sekúnd a skúste to znova."
 
-#: wp-includes/class-wp-customize-manager.php:4121
+#: wp-includes/class-wp-customize-manager.php:4158
 msgid "Take over"
 msgstr "Prevziať"
 
-#: wp-includes/class-wp-customize-manager.php:4117
+#: wp-includes/class-wp-customize-manager.php:4154
 msgid "Go back"
 msgstr "Vrátiť sa"
 
-#: wp-includes/class-wp-customize-manager.php:3203
+#: wp-includes/class-wp-customize-manager.php:3221
 msgid "No changeset found to take over"
 msgstr "Nenájdené žiadne množiny zmien na prevzatie."
 
-#: wp-includes/class-wp-customize-manager.php:2451
+#: wp-includes/class-wp-customize-manager.php:2456
 msgid "Changeset is being edited by other user."
 msgstr "Množinu zmien práve upravuje iný používateľ."
 
-#: wp-includes/class-wp-customize-manager.php:3210
+#: wp-includes/class-wp-customize-manager.php:3228
 msgid "Sorry, you are not allowed to take over."
 msgstr "Nie ste oprávnený prevziať."
 
@@ -178,24 +188,24 @@ msgctxt "menu locations"
 msgid "Here&#8217;s where this menu appears. If you&#8217;d like to change that, pick another location."
 msgstr "Tu sa bude zobrazovať menu. Ak si to želáte zmeniť, vyberte iné umiestnenie."
 
-#: wp-includes/class-wp-customize-nav-menus.php:964
+#: wp-includes/class-wp-customize-nav-menus.php:980
 msgid "You&#8217;ll create a menu, assign it a location, and add menu items like links to pages and categories. If your theme has multiple menu areas, you might need to create more than one."
 msgstr "Vytvorte menu, priraďte mu umiestnenie a pridajte položky menu ako napr. odkazy na stránky a kategórie. Ak vaša téma má viaceré oblasti pre menu, môžete vytvoriť viac ako jedno menu."
 
-#: wp-includes/class-wp-customize-nav-menus.php:961
+#: wp-includes/class-wp-customize-nav-menus.php:977
 msgid "It doesn&#8217;t look like your site has any menus yet. Want to build one? Click the button to start."
 msgstr "Vyzerá to tak, že stránka neobsahuje žiadne menu. Nechcete jedno vytvoriť? Pre vytvorenie menu kliknite na tlačidlo."
 
-#: wp-includes/class-wp-customize-nav-menus.php:588
+#: wp-includes/class-wp-customize-nav-menus.php:604
 msgctxt "menu locations"
 msgid "View All Locations"
 msgstr "Zobraziť všetky umiestnenia"
 
-#: wp-includes/class-wp-customize-manager.php:4787
+#: wp-includes/class-wp-customize-manager.php:4827
 msgid "Looking for a theme? You can search or browse the WordPress.org theme directory, install and preview themes, then activate them right here."
 msgstr "Hľadáte tému? Vyhľadajte alebo prechádzajte zoznam tém na WordPress.org, nainštalujte a zobrazte náhľad témy, potom aj aktivujte."
 
-#: wp-includes/class-wp-customize-manager.php:4788
+#: wp-includes/class-wp-customize-manager.php:4828
 msgid "While previewing a new theme, you can continue to tailor things like widgets and menus, and explore theme-specific options."
 msgstr "Počas náhľadu novej témy môžete naďalej pracovať s vecami ako widgety a menu, a objavovať špecifické možnosti témy."
 
@@ -203,11 +213,11 @@ msgstr "Počas náhľadu novej témy môžete naďalej pracovať s vecami ako wi
 msgid "Something went wrong. Your change may not have been saved. Please try again. There is also a chance that you may need to manually fix and upload the file over FTP."
 msgstr "Niečo sa pokazilo. Vaše zmeny nemuseli byť uložené. Skúste to znovu. Taktiež je možné, že bude potrebné manuálne opraviť a nahrať súbor cez FTP."
 
-#: wp-includes/class-wp-customize-manager.php:5242
+#: wp-includes/class-wp-customize-manager.php:5282
 msgid "Screen reader users: when in forms mode, you may need to press the escape key twice."
 msgstr "Používatelia čítačiek obrazovky: pre odchod z formulárového módu bude možno  potrebné stlačiť kláves Esc dvakrát."
 
-#: wp-includes/class-wp-customize-nav-menus.php:588
+#: wp-includes/class-wp-customize-nav-menus.php:604
 msgctxt "menu locations"
 msgid "View Location"
 msgstr "Zobraziť všetky umiestnenia"
@@ -220,11 +230,11 @@ msgstr "Žiadne témy sa nenašli. Vyskúšajte vyhľadať niečo iné."
 msgid "Jump forward %1 seconds"
 msgstr "Preskočiť %1 sekúnd dopredu"
 
-#: wp-includes/class-wp-customize-nav-menus.php:576
+#: wp-includes/class-wp-customize-nav-menus.php:592
 msgid "Your theme can display menus in one location. Select which menu you would like to use."
 msgstr "Vaša téma môže zobrazovať menu na jednom umiestnení. Zvoľte, ktoré menu chcete použiť."
 
-#: wp-includes/wp-db.php:1253
+#: wp-includes/wp-db.php:1246
 msgid "Unsupported value type (%s)."
 msgstr "Nepodporovaný typ hodnoty (%s)."
 
@@ -245,7 +255,7 @@ msgid "Widgets need to be registered using %s, before they can be displayed."
 msgstr "Aby widgety mohlí byť zobrazené, musia byť zaregistrované pomocou %s."
 
 #. translators: 1: number of placeholders, 2: number of arguments passed
-#: wp-includes/wp-db.php:1301
+#: wp-includes/wp-db.php:1294
 msgid "The query does not contain the correct number of placeholders (%1$d) for the number of arguments passed (%2$d)."
 msgstr "Dotaz neobsahuje správne číslo zástupných symbolov (%1$d) pre čísla argumentov (%2$d)."
 
@@ -708,13 +718,13 @@ msgstr "Odpovede oEmbed"
 
 #. translators: Network admin email change notification email subject. %s:
 #. Network title
-#: wp-includes/ms-functions.php:2697
+#: wp-includes/ms-functions.php:2704
 msgid "[%s] Notice of Network Admin Email Change"
 msgstr "[%s] Upozornenie na zmenu e-mailu administrátora siete"
 
 #. translators: Do not translate OLD_EMAIL, NEW_EMAIL, SITENAME, SITEURL: those
 #. are placeholders.
-#: wp-includes/ms-functions.php:2682
+#: wp-includes/ms-functions.php:2689
 msgid ""
 "Hi,\n"
 "\n"
@@ -786,13 +796,13 @@ msgstr "Nie je možné pridať používateľa na túto webovú stránku."
 
 #. translators: Site admin email change notification email subject. %s: Site
 #. title
-#: wp-includes/functions.php:5771
+#: wp-includes/functions.php:5779
 msgid "[%s] Notice of Admin Email Change"
 msgstr "[%s] upozornenie na zmenu e-mailu administrátora"
 
 #. translators: Do not translate OLD_EMAIL, NEW_EMAIL, SITENAME, SITEURL: those
 #. are placeholders.
-#: wp-includes/functions.php:5756
+#: wp-includes/functions.php:5764
 msgid ""
 "Hi,\n"
 "\n"
@@ -848,7 +858,7 @@ msgstr "Inštalovať &amp; náhľad"
 msgid "Filter themes (%s)"
 msgstr "Filtrujte témy (%s)"
 
-#: wp-includes/functions.php:5699
+#: wp-includes/functions.php:5700
 msgid "Only UUID V4 is supported at this time."
 msgstr "Aktuálne je podporované iba UUID V4."
 
@@ -856,9 +866,10 @@ msgstr "Aktuálne je podporované iba UUID V4."
 msgid "Invalid URL."
 msgstr "Neplatná URL."
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:39
-msgid "Time to add some links! Click &#8220;Add menu items&#8221; to start putting pages, categories, and custom links in your menu. Add as many things as you&#8217;d like."
-msgstr "Nastal čas pridať odkazy! Kliknite na &#8222;Pridať položky menu&#8220; a začnite pridávať stránky, kategórie alebo vlastné odkazy do menu. Položiek pridajte koľko len chcete."
+#. translators: %s: "Add Items" button text
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:44
+msgid "Time to add some links! Click &#8220;%s&#8221; to start putting pages, categories, and custom links in your menu. Add as many things as you&#8217;d like."
+msgstr "Nastal čas pridať odkazy! Kliknite na &#8222;%s&#8220; a začnite pridávať stránky, kategórie alebo vlastné odkazy do menu. Položiek pridajte koľko len chcete."
 
 #: wp-includes/customize/class-wp-customize-media-control.php:249
 msgid "Choose image"
@@ -915,11 +926,11 @@ msgstr "%1$s-%2$s"
 msgid "Timezone is %1$s (%2$s), currently %3$s."
 msgstr "Časové pásmo je %1$s (%2$s), aktuálne %3$s."
 
-#: wp-includes/class-wp-customize-nav-menus.php:693
+#: wp-includes/class-wp-customize-nav-menus.php:709
 msgid "New Menu"
 msgstr "Nové menu"
 
-#: wp-includes/class-wp-customize-nav-menus.php:968
+#: wp-includes/class-wp-customize-nav-menus.php:984
 msgid "Create New Menu"
 msgstr "Vytvoriť nové menu"
 
@@ -962,7 +973,7 @@ msgid "Meridian"
 msgstr "Poludník"
 
 #. translators: URL to the widgets panel of the customizer
-#: wp-includes/class-wp-customize-nav-menus.php:584
+#: wp-includes/class-wp-customize-nav-menus.php:600
 msgid "If your theme has widget areas, you can also add menus there. Visit the <a href=\"%s\">Widgets panel</a> and add a &#8220;Navigation Menu widget&#8221; to display a menu in a sidebar or footer."
 msgstr "Ak vaša téma obsahuje oblasti pre widgety, môžete tam taktiež pridať menu. Navštívte <a href=\"%s\">Panel widgetov</a> a pridajte &#8222; widget Navigačné menu &#8220; pre zobrazenie menu v bočnom paneli alebo pätičke."
 
@@ -970,23 +981,23 @@ msgstr "Ak vaša téma obsahuje oblasti pre widgety, môžete tam taktiež prida
 msgid "Usage of user levels is deprecated. Use capabilities instead."
 msgstr "Použitie úrovní používateľov je zastaralé. Namiesto toho použite možnosti."
 
-#: wp-includes/class-wp-customize-manager.php:5278
+#: wp-includes/class-wp-customize-manager.php:5318
 msgid "CSS code"
 msgstr "CSS kód"
 
 #. translators: %s: number of menu locations
-#: wp-includes/class-wp-customize-nav-menus.php:403
+#: wp-includes/class-wp-customize-nav-menus.php:419
 msgid "Your theme can display menus in %s location."
 msgid_plural "Your theme can display menus in %s locations."
 msgstr[0] "Vaša téma môže zobrazovať menu na %s umiestnení."
 msgstr[1] "Vaša téma môže zobrazovať menu na %s umiestneniach."
 msgstr[2] "Vaša téma môže zobrazovať menu v %s umiestneniach."
 
-#: wp-includes/class-wp-customize-nav-menus.php:400
+#: wp-includes/class-wp-customize-nav-menus.php:416
 msgid "Your theme can display menus in one location."
 msgstr "Vaša téma môže zobrazovať menu na jednom umiestnení."
 
-#: wp-includes/class-wp-customize-manager.php:5228
+#: wp-includes/class-wp-customize-manager.php:5268
 msgid "Add your own CSS code here to customize the appearance and layout of your site."
 msgstr "Tu pridajte váš vlastný CSS kód pre upravenie vzhľadu a rozloženia webovej stránky."
 
@@ -994,54 +1005,54 @@ msgstr "Tu pridajte váš vlastný CSS kód pre upravenie vzhľadu a rozloženia
 msgid "Screen reader users: when in forms mode, you may need to press the Esc key twice."
 msgstr "Používatelia čítačiek obrazoviek: Ak ste v forms móde, možno budete musieť stlačiť klávesu Esc dva razy."
 
-#: wp-includes/class-wp-customize-manager.php:5238
+#: wp-includes/class-wp-customize-manager.php:5278
 #: wp-includes/widgets/class-wp-widget-custom-html.php:309
 msgid "When using a keyboard to navigate:"
 msgstr "Pomocou klávesnice sa môžete pohybovať:"
 
-#: wp-includes/class-wp-customize-manager.php:5193
+#: wp-includes/class-wp-customize-manager.php:5233
 msgid "Your homepage displays"
 msgstr "Úvodná stránka zobrazuje"
 
-#: wp-includes/class-wp-customize-nav-menus.php:420
+#: wp-includes/class-wp-customize-nav-menus.php:436
 msgid "If your theme has multiple menus, giving them clear names will help you manage them."
 msgstr "Ak vaša téma obsahuje viacero menu, ich správne pomenovanie vám zjednoduší ich správu."
 
-#: wp-includes/class-wp-customize-manager.php:5240
+#: wp-includes/class-wp-customize-manager.php:5280
 #: wp-includes/widgets/class-wp-widget-custom-html.php:311
 msgid "In the editing area, the Tab key enters a tab character."
 msgstr "V oblasti editora, klávesa Tab vloží tabulátor."
 
-#: wp-includes/class-wp-customize-manager.php:5241
+#: wp-includes/class-wp-customize-manager.php:5281
 #: wp-includes/widgets/class-wp-widget-custom-html.php:312
 msgid "To move away from this area, press the Esc key followed by the Tab key."
 msgstr "Pre odchod z oblasti editora použite klávesu Esc nasledovanú klávesou Tab."
 
 #. translators: 1: link to user profile, 2: additional link attributes, 3:
 #. accessibility text
-#: wp-includes/class-wp-customize-manager.php:5249
+#: wp-includes/class-wp-customize-manager.php:5289
 #: wp-includes/widgets/class-wp-widget-custom-html.php:299
 msgid "The edit field automatically highlights code syntax. You can disable this in your <a href=\"%1$s\" %2$s>user profile%3$s</a> to work in plain text mode."
 msgstr "Pole na úpravu automaticky zvýrazňuje syntax kódu. Pre prácu v textovom režime to môžete zakázať vo vašom <a href=\"%1$s\" %2$s>používateľskom profile%3$s</a>."
 
-#: wp-includes/class-wp-customize-manager.php:5182
+#: wp-includes/class-wp-customize-manager.php:5222
 msgid "You can choose what&#8217;s displayed on the homepage of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static homepage, you first need to create two Pages. One will become the homepage, and the other will be where your posts are displayed."
 msgstr "Môžete vybrať čo sa zobrazí na domovskej stránke vašej webovej stránky. Môžu to byť články zoradené v opačnom chronologickom poradí (bežný blog) alebo statická stránka. Pre nastavenie statickej domovskej stránky je potrebné najprv vytvoriť dve stránky. Jedna sa stane domovskou stránkou, druhá bude tá, kde sa zobrazia vaše články."
 
-#: wp-includes/class-wp-customize-manager.php:5180
+#: wp-includes/class-wp-customize-manager.php:5220
 msgid "Homepage Settings"
 msgstr "Nastavenia domovskej stránky"
 
-#: wp-includes/class-wp-customize-manager.php:4804
+#: wp-includes/class-wp-customize-manager.php:4844
 msgid "WordPress.org themes"
 msgstr "WordPress.org témy"
 
-#: wp-includes/class-wp-customize-manager.php:4795
+#: wp-includes/class-wp-customize-manager.php:4835
 msgid "Installed themes"
 msgstr "Nainštalované témy"
 
 #. translators: %s: site icon size in pixels
-#: wp-includes/class-wp-customize-manager.php:4874
+#: wp-includes/class-wp-customize-manager.php:4914
 msgid "Site Icons should be square and at least %s pixels."
 msgstr "Ikony webovej stránky by mali byť štvorcové s rozmerom aspoň %s pixelov."
 
@@ -1049,51 +1060,51 @@ msgstr "Ikony webovej stránky by mali byť štvorcové s rozmerom aspoň %s pix
 msgid "Publish Settings"
 msgstr "Nastavenie publikovania"
 
-#: wp-includes/class-wp-customize-manager.php:4165
+#: wp-includes/class-wp-customize-manager.php:4202
 msgid "Copied"
 msgstr "Skopírované"
 
-#: wp-includes/class-wp-customize-manager.php:4159
+#: wp-includes/class-wp-customize-manager.php:4196
 msgid "Preview Link"
 msgstr "Odkaz na ukážku"
 
-#: wp-includes/class-wp-customize-manager.php:4154
+#: wp-includes/class-wp-customize-manager.php:4191
 msgid "Share Preview Link"
 msgstr "Zdieľať odkaz na ukážku"
 
-#: wp-includes/class-wp-customize-manager.php:4156
+#: wp-includes/class-wp-customize-manager.php:4193
 msgid "See how changes would look live on your website, and share the preview with people who can't access the Customizer."
 msgstr "Pozrite sa, ako by vaša webová stránka vyzerala so zmenami a zdieľajte ukážku s ľuďmi, ktorí nemajú prístup k nástroju možností prispôsobenia (Customizer)."
 
-#: wp-includes/class-wp-customize-manager.php:2997
+#: wp-includes/class-wp-customize-manager.php:3004
 msgid "There was an authentication problem. Please reload and try again."
 msgstr "Vyskytol sa problém s autentifikáciou. Znova načítajte a skúste to znova."
 
-#: wp-includes/class-wp-customize-manager.php:3005
+#: wp-includes/class-wp-customize-manager.php:3012
 msgid "No changes saved yet, so there is nothing to trash."
 msgstr "Zatiaľ neboli uložené žiadne zmeny, takže nie je nič na zahodenie do koša."
 
-#: wp-includes/class-wp-customize-manager.php:3014
-#: wp-includes/class-wp-customize-manager.php:3030
+#: wp-includes/class-wp-customize-manager.php:3021
+#: wp-includes/class-wp-customize-manager.php:3037
 msgid "Unable to trash changes."
 msgstr "Nie je možné zahodiť zmeny."
 
-#: wp-includes/class-wp-customize-manager.php:3035
+#: wp-includes/class-wp-customize-manager.php:3042
 msgid "Changes trashed successfully."
 msgstr "Zmeny úspešne zahodené."
 
-#: wp-includes/class-wp-customize-manager.php:3020
+#: wp-includes/class-wp-customize-manager.php:3027
 msgid "Changes have already been trashed."
 msgstr "Zmeny už boli zahodené."
 
-#: wp-includes/class-wp-customize-manager.php:2588
-#: wp-includes/class-wp-customize-manager.php:2603
+#: wp-includes/class-wp-customize-manager.php:2593
+#: wp-includes/class-wp-customize-manager.php:2608
 #: wp-includes/script-loader.php:558
 msgid "You must supply a future date to schedule."
 msgstr "Musíte zadať budúci dátum pre naplánovanie."
 
 #. translators: %s: number of invalid settings
-#: wp-includes/class-wp-customize-manager.php:2702
+#: wp-includes/class-wp-customize-manager.php:2707
 #: wp-includes/script-loader.php:593 wp-includes/script-loader.php:595
 msgid "Unable to save due to %s invalid setting."
 msgid_plural "Unable to save due to %s invalid settings."
@@ -1101,7 +1112,7 @@ msgstr[0] "Nebolo možné uložiť kvôli %s zlému nastaveniu."
 msgstr[1] "Nebolo možné uložiť kvôli %s zlým nastaveniam."
 msgstr[2] "Nebolo možné uložiť kvôli %s zlým nastaveniam."
 
-#: wp-includes/class-wp-customize-manager.php:4872
+#: wp-includes/class-wp-customize-manager.php:4912
 msgid "Site Icons are what you see in browser tabs, bookmark bars, and within the WordPress mobile apps. Upload one here!"
 msgstr "Ikona webovej stránky je viditeľná v kartách a záložkách prehliadača, a vo WordPress mobilných appkách. Nahrajte ju tu!"
 
@@ -1113,27 +1124,27 @@ msgstr "Upraviť používateľa"
 msgid "View User"
 msgstr "Zobraziť používateľa"
 
-#: wp-includes/class-wp-customize-manager.php:2565
+#: wp-includes/class-wp-customize-manager.php:2570
 msgid "The previous set of changes has already been published. Please try saving your current set of changes again."
 msgstr "Predchádzajúci súbor zmien už bol publikovaný. Skúste znova uložiť aktuálnu súbor zmien."
 
-#: wp-includes/widgets/class-wp-widget-text.php:460
+#: wp-includes/widgets/class-wp-widget-text.php:481
 msgid "This widget may have contained code that may work better in the &#8220;Custom HTML&#8221; widget. If you haven&#8217;t yet, how about trying that widget instead?"
 msgstr "Tento widget môže obsahovať kód, ktorý bude lepšie pracovať v novom &#8220;HTML &#8221;widgete. Ak ste tak ešte neurobili, nechcete skúsiť nový widget?"
 
-#: wp-includes/widgets/class-wp-widget-text.php:513
+#: wp-includes/widgets/class-wp-widget-text.php:534
 msgid "Hey there, looks like you just pasted HTML into the &#8220;Visual&#8221; tab of the Text widget. You may want to paste your code into the &#8220;Text&#8221; tab instead. Alternately, try out the new &#8220;Custom HTML&#8221; widget!"
 msgstr "Hej, vyzerá to, že ste práve vložili HTML kód do záložky &#8220;vizuálneho editoru&#8221; widgetu pre Text. Pravdepodobne budete chcieť vložiť svoj kód do záložky &#8220;Text&#8221;. Prípadne môžete vyskúšať nový &#8220;vlastný HTML widget&#8221;!"
 
-#: wp-includes/widgets/class-wp-widget-text.php:512
+#: wp-includes/widgets/class-wp-widget-text.php:533
 msgid "Did you just paste HTML?"
 msgstr "Vložili ste kód HTML?"
 
-#: wp-includes/widgets/class-wp-widget-text.php:497
+#: wp-includes/widgets/class-wp-widget-text.php:518
 msgid "Did you know there is a &#8220;Custom HTML&#8221; widget now? You can find it by scanning the list of available widgets on this screen. Check it out to add some custom code to your site!"
 msgstr "Viete o tom, že existuje &#8220;Vlastný HTML&#8221; widget? Nájdete ho v zozname existujúcich widgetov na tejto stránke. Vyskúšajte ho a pridajte vlastný kód na svoje webové stránky!"
 
-#: wp-includes/widgets/class-wp-widget-text.php:495
+#: wp-includes/widgets/class-wp-widget-text.php:516
 msgid "Did you know there is a &#8220;Custom HTML&#8221; widget now? You can find it by pressing the &#8220;<a class=\"add-widget\" href=\"#\">Add a Widget</a>&#8221; button and searching for &#8220;HTML&#8221;. Check it out to add some custom code to your site!"
 msgstr "Viete o tom, že existuje &#8220;vlastný HTML&#8221; widget? Nájdete ho stlačením tlačidla&#8220;<a class=\"add-widget\" href=\"#\">Pridať widget</a>&#8221; a vyhľadaním &#8220;HTML&#8221;. Vyskúšajte ho a pridajte vlastný kód na svoje webové stránky!"
 
@@ -1141,11 +1152,11 @@ msgstr "Viete o tom, že existuje &#8220;vlastný HTML&#8221; widget? Nájdete h
 msgid "Arbitrary text."
 msgstr "Ľubovoľný text."
 
-#: wp-includes/widgets/class-wp-widget-text.php:493
+#: wp-includes/widgets/class-wp-widget-text.php:514
 msgid "New Custom HTML Widget"
 msgstr "Nový vlastný HTML widget"
 
-#: wp-includes/widgets/class-wp-widget-text.php:458
+#: wp-includes/widgets/class-wp-widget-text.php:479
 msgid "This widget may contain code that may work better in the &#8220;Custom HTML&#8221; widget. How about trying that widget instead?"
 msgstr "Tento widget môže obsahovať kód, ktorý bude lepšie fungovať v novom &#8220;Vlastnom HTML&#8221; widgete. Čo takto ho vyskúšať?"
 
@@ -2290,7 +2301,7 @@ msgstr "Skryť ovládanie"
 msgid "Document Preview"
 msgstr "Náhľad dokumentu"
 
-#: wp-includes/class-wp-customize-manager.php:4963
+#: wp-includes/class-wp-customize-manager.php:5003
 msgid "Header Media"
 msgstr "Média Hlavičky"
 
@@ -2324,11 +2335,11 @@ msgstr "HTML titulok pre prílohu, transformovaný pre zobrazenie. "
 msgid "Caption for the attachment, as it exists in the database."
 msgstr "Titulok pre prílohu, tak ako existuje v databáze. "
 
-#: wp-includes/class-wp-customize-manager.php:5625
+#: wp-includes/class-wp-customize-manager.php:5665
 msgid "Please enter a valid YouTube URL."
 msgstr "Prosím zadajte platnú YouTube URL adresu."
 
-#: wp-includes/class-wp-customize-manager.php:5048
+#: wp-includes/class-wp-customize-manager.php:5088
 msgid "Or, enter a YouTube URL:"
 msgstr "Alebo vložte YouTube URL:"
 
@@ -2395,11 +2406,11 @@ msgstr "Obmedziť výsledok na články s jedným alebo viacerými slugmi. "
 msgid "Comment is required."
 msgstr "Komentár je povinný."
 
-#: wp-includes/class-wp-customize-nav-menus.php:792
+#: wp-includes/class-wp-customize-nav-menus.php:808
 msgid "Empty title"
 msgstr "Prázdny nadpis"
 
-#: wp-includes/class-wp-customize-nav-menus.php:795
+#: wp-includes/class-wp-customize-nav-menus.php:811
 msgid "Status is forbidden"
 msgstr "Stav je zakázaný. "
 
@@ -2407,7 +2418,7 @@ msgstr "Stav je zakázaný. "
 msgid "We already have a ping from that URL for this post."
 msgstr "Ping z danej URL adresy pre tento članok už máme. "
 
-#: wp-includes/class-wp-customize-manager.php:5208
+#: wp-includes/class-wp-customize-manager.php:5248
 msgid "Homepage"
 msgstr "Domovská stránka"
 
@@ -3421,131 +3432,131 @@ msgid "Number of widgets found: %d"
 msgstr "Počet nájdených widgetov: %d"
 
 #. translators: %1$s is the post type name and %2$s is the error message.
-#: wp-includes/class-wp-customize-nav-menus.php:886
+#: wp-includes/class-wp-customize-nav-menus.php:902
 msgid "%1$s could not be created: %2$s"
 msgstr "%1$s nemohol byť vytvorený: %2$s"
 
-#: wp-includes/class-wp-customize-nav-menus.php:881
+#: wp-includes/class-wp-customize-nav-menus.php:897
 msgid "Post"
 msgstr "Článok"
 
 #. translators: 1: .mp4, 2: .mov
-#: wp-includes/class-wp-customize-manager.php:5601
+#: wp-includes/class-wp-customize-manager.php:5641
 msgid "Only %1$s or %2$s files may be used for header video. Please convert your video file and try again, or, upload your video to YouTube and link it with the option below."
 msgstr "Len súbory %1$s alebo %2$s môžu byť použité pre video v hlavičke. Prosím prekonvertujte váš súbor a skúste znovu alebo nahrajte video na YouTube a vložte link do nastavení nižšie."
 
-#: wp-includes/class-wp-customize-manager.php:5595
+#: wp-includes/class-wp-customize-manager.php:5635
 msgid "This video file is too large to use as a header video. Try a shorter video or optimize the compression settings and re-upload a file that is less than 8MB. Or, upload your video to YouTube and link it with the option below."
 msgstr "Toto video je príliš veľké na to, aby bolo použité ako video v hlavičke. Skúste skrátiť video alebo optimalizovať nastavenia kompresie a znovu nahrajte súbor, ktorý je menší ako 8MB. Alebo nahrajte video na YouTube a vložte link do nastavení nižšie."
 
-#: wp-includes/class-wp-customize-manager.php:5555
+#: wp-includes/class-wp-customize-manager.php:5595
 msgid "Unrecognized background setting."
 msgstr "Nerozpoznané nastavenie pozadia stránky."
 
-#: wp-includes/class-wp-customize-manager.php:5232
+#: wp-includes/class-wp-customize-manager.php:5272
 msgid "Learn more about CSS"
 msgstr "Zistiť viac o CSS"
 
-#: wp-includes/class-wp-customize-manager.php:5265
+#: wp-includes/class-wp-customize-manager.php:5305
 msgid "Additional CSS"
 msgstr "Dodatočné CSS"
 
-#: wp-includes/class-wp-customize-manager.php:5546
-#: wp-includes/class-wp-customize-manager.php:5550
+#: wp-includes/class-wp-customize-manager.php:5586
+#: wp-includes/class-wp-customize-manager.php:5590
 msgid "Invalid value for background size."
 msgstr "Neplatná hodnota pre veľkosť pozadia."
 
-#: wp-includes/class-wp-customize-manager.php:5542
+#: wp-includes/class-wp-customize-manager.php:5582
 msgid "Invalid value for background position Y."
 msgstr "Neplatná hodnota pre pozíciu Y pozadia."
 
-#: wp-includes/class-wp-customize-manager.php:5538
+#: wp-includes/class-wp-customize-manager.php:5578
 msgid "Invalid value for background position X."
 msgstr "Neplatná hodnota pre pozíciu X pozadia."
 
-#: wp-includes/class-wp-customize-manager.php:5534
+#: wp-includes/class-wp-customize-manager.php:5574
 msgid "Invalid value for background attachment."
 msgstr "Neplatná hodnota pre prílohu pozadia."
 
-#: wp-includes/class-wp-customize-manager.php:5530
+#: wp-includes/class-wp-customize-manager.php:5570
 msgid "Invalid value for background repeat."
 msgstr "Neplatná hodnota pre repeat pozadia."
 
 #. translators: accessibility text
-#: wp-includes/class-wp-customize-manager.php:4162
-#: wp-includes/class-wp-customize-manager.php:5234
-#: wp-includes/class-wp-customize-manager.php:5254
+#: wp-includes/class-wp-customize-manager.php:4199
+#: wp-includes/class-wp-customize-manager.php:5274
+#: wp-includes/class-wp-customize-manager.php:5294
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:56
 #: wp-includes/widgets/class-wp-widget-custom-html.php:304
 msgid "(opens in a new window)"
 msgstr "(otvorí sa v novom okne)"
 
-#: wp-includes/class-wp-customize-manager.php:5130
+#: wp-includes/class-wp-customize-manager.php:5170
 msgid "Image Size"
 msgstr "Veľkosť obrázku"
 
-#: wp-includes/class-wp-customize-manager.php:5115
+#: wp-includes/class-wp-customize-manager.php:5155
 #: wp-includes/customize/class-wp-customize-background-position-control.php:66
 msgid "Image Position"
 msgstr "Pozícia obrázku"
 
-#: wp-includes/class-wp-customize-manager.php:5098
+#: wp-includes/class-wp-customize-manager.php:5138
 msgctxt "Custom Preset"
 msgid "Custom"
 msgstr "Vlastné"
 
-#: wp-includes/class-wp-customize-manager.php:5147
+#: wp-includes/class-wp-customize-manager.php:5187
 msgid "Repeat Background Image"
 msgstr "Opakovať obrázok pozadia"
 
-#: wp-includes/class-wp-customize-manager.php:5134
+#: wp-includes/class-wp-customize-manager.php:5174
 msgid "Original"
 msgstr "Pôvodná veľkosť"
 
-#: wp-includes/class-wp-customize-manager.php:5097
+#: wp-includes/class-wp-customize-manager.php:5137
 msgctxt "Repeat Image"
 msgid "Repeat"
 msgstr "Opakovať"
 
-#: wp-includes/class-wp-customize-manager.php:5159
+#: wp-includes/class-wp-customize-manager.php:5199
 msgid "Scroll with Page"
 msgstr "Posúvať so stránkou"
 
-#: wp-includes/class-wp-customize-manager.php:5096
-#: wp-includes/class-wp-customize-manager.php:5135
+#: wp-includes/class-wp-customize-manager.php:5136
+#: wp-includes/class-wp-customize-manager.php:5175
 msgid "Fit to Screen"
 msgstr "Prispôsobiť obrazovke"
 
-#: wp-includes/class-wp-customize-manager.php:5038
+#: wp-includes/class-wp-customize-manager.php:5078
 msgid "Header Video"
 msgstr "Video hlavičky"
 
 #. translators: 1: .mp4, 2: header width in pixels
-#: wp-includes/class-wp-customize-manager.php:4978
+#: wp-includes/class-wp-customize-manager.php:5018
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a width of %2$s pixels."
 msgstr "Nahrajte vaše video vo formáte %1$s a minimalizujte veľkosť súboru pre najlepší výsledok. Vaša téma odporúča šírku %2$s pixelov."
 
 #. translators: 1: .mp4, 2: header height in pixels
-#: wp-includes/class-wp-customize-manager.php:4985
+#: wp-includes/class-wp-customize-manager.php:5025
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a height of %2$s pixels."
 msgstr "Nahrajte vaše video vo formáte %1$s a minimalizujte veľkosť súboru pre najlepší výsledok. Vaša téma odporúča výšku %2$s pixelov."
 
-#: wp-includes/class-wp-customize-manager.php:5090
+#: wp-includes/class-wp-customize-manager.php:5130
 msgctxt "Background Preset"
 msgid "Preset"
 msgstr "Predvoľba"
 
-#: wp-includes/class-wp-customize-manager.php:5094
+#: wp-includes/class-wp-customize-manager.php:5134
 msgctxt "Default Preset"
 msgid "Default"
 msgstr "Základná predvoľba"
 
 #. translators: 1: .mp4, 2: header size in pixels
-#: wp-includes/class-wp-customize-manager.php:4971
+#: wp-includes/class-wp-customize-manager.php:5011
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends dimensions of %2$s pixels."
 msgstr "Nahrajte vaše video vo formáte %1$s a minimalizujte veľkosť súboru pre najlepší výsledok. Vaša téma odporúča rozmer %2$s pixelov."
 
-#: wp-includes/class-wp-customize-manager.php:4964
+#: wp-includes/class-wp-customize-manager.php:5004
 msgid "If you add a video, the image will be used as a fallback while the video loads."
 msgstr "Ak pridáte video, obrázok bude použitý ako náhrada pokiaľ sa video načíta."
 
@@ -3556,32 +3567,32 @@ msgstr "Ak pridáte video, obrázok bude použitý ako náhrada pokiaľ sa video
 msgid "Search themes&hellip;"
 msgstr "Hľadať témy&hellip;"
 
-#: wp-includes/class-wp-customize-manager.php:2267
+#: wp-includes/class-wp-customize-manager.php:2272
 msgid "Setting does not exist or is unrecognized."
 msgstr "Nastavenie neexistuje alebo nie je rozpoznané."
 
-#: wp-includes/class-wp-customize-manager.php:2272
+#: wp-includes/class-wp-customize-manager.php:2277
 msgid "Unauthorized to modify setting due to capability."
 msgstr "Neoprávnený meniť nastavenie kvôli úrovni schopnosti. "
 
-#: wp-includes/class-wp-customize-manager.php:4664
+#: wp-includes/class-wp-customize-manager.php:4704
 msgid "Are you sure you want to delete this theme?"
 msgstr "Ste si istý, že chcete vymazať túto tému?"
 
 #. translators: %d: number of theme search results, which cannot currently
 #. consider singular vs. plural forms
-#: wp-includes/class-wp-customize-manager.php:4666
+#: wp-includes/class-wp-customize-manager.php:4706
 msgid "%d themes found"
 msgstr "%d nájdených tém"
 
 #. translators: %s: theme name
-#: wp-includes/class-wp-customize-manager.php:4670
+#: wp-includes/class-wp-customize-manager.php:4710
 msgid "Showing details for theme: %s"
 msgstr "Zobrazujeme detail pre tému: %s"
 
 #. translators: %d: number of themes being displayed, which cannot currently
 #. consider singular vs. plural forms
-#: wp-includes/class-wp-customize-manager.php:4668
+#: wp-includes/class-wp-customize-manager.php:4708
 msgid "Displaying %d themes"
 msgstr "Zobrazujeme %d tém/-y"
 
@@ -3611,15 +3622,15 @@ msgstr "Neplatná množina zmien UUID"
 msgid "Non-existent changeset UUID."
 msgstr "Neexistujúca množina zmien UUID."
 
-#: wp-includes/class-wp-customize-manager.php:1844
+#: wp-includes/class-wp-customize-manager.php:1849
 msgid "Unauthorized. You may remove the customize_messenger_channel param to preview as frontend."
 msgstr "Neoprávnený. Môžete odstrániť customize_messenger_channel parameter k frontend náhľadu."
 
-#: wp-includes/class-wp-customize-manager.php:2060
+#: wp-includes/class-wp-customize-manager.php:2065
 msgid "This form is not live-previewable."
 msgstr "Tento formulár nie je možné prezentovať v náhľade."
 
-#: wp-includes/class-wp-customize-manager.php:2059
+#: wp-includes/class-wp-customize-manager.php:2064
 msgid "This link is not live-previewable."
 msgstr "Tento odkaz nie je možné prezentovať v náhľade."
 
@@ -3870,7 +3881,7 @@ msgctxt "site"
 msgid "&larr; Back to %s"
 msgstr "&larr; Späť na %s"
 
-#: wp-includes/wp-db.php:1856 wp-includes/wp-db.php:1862
+#: wp-includes/wp-db.php:1849 wp-includes/wp-db.php:1855
 msgid "Unable to retrieve the error message from MySQL"
 msgstr "Nie je možné získať hlášku o chybe z MySQL"
 
@@ -3971,7 +3982,7 @@ msgstr "Nemáte oprávnenie pridávať kategórie."
 msgid "Sorry, you are not allowed to list users."
 msgstr "Nemáte oprávnenie zobraziť si zoznam používateľov."
 
-#: wp-includes/class-wp-customize-manager.php:2295
+#: wp-includes/class-wp-customize-manager.php:2300
 #: wp-includes/class-wp-customize-setting.php:579
 #: wp-includes/script-loader.php:606
 msgid "Invalid value."
@@ -4049,7 +4060,7 @@ msgstr "Konštanta %1$s <strong>sa už nepoužíva</strong>. Pre zapnutie konfig
 
 #. translators: 1: panel id, 2: link to 'customize_loaded_components' filter
 #. reference
-#: wp-includes/class-wp-customize-manager.php:3737
+#: wp-includes/class-wp-customize-manager.php:3760
 msgid "Removing %1$s manually will cause PHP warnings. Use the %2$s filter instead."
 msgstr "Ručné odstránenie %1$s spôsobí varovné hlásenia PHP. Namiesto toho použite filter %2$s. "
 
@@ -4149,21 +4160,21 @@ msgctxt "post status"
 msgid "Private"
 msgstr "Súkromné"
 
-#: wp-includes/class-wp-customize-manager.php:4902
+#: wp-includes/class-wp-customize-manager.php:4942
 msgid "No logo selected"
 msgstr "Nebolo vybrané žiadne logo"
 
-#: wp-includes/class-wp-customize-manager.php:4904
+#: wp-includes/class-wp-customize-manager.php:4944
 msgid "Choose logo"
 msgstr "Vybrať logo"
 
-#: wp-includes/functions.php:5312
+#: wp-includes/functions.php:5313
 msgid "Close dialog"
 msgstr "Zavrieť okno"
 
 #. translators: 1: PHP class name, 2: PHP parent class name, 3: version number,
 #. 4: __construct() method
-#: wp-includes/functions.php:3900
+#: wp-includes/functions.php:3901
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "Volaná metóda konštruktora triedy pre %1$s v %2$s <strong>sa nepoužíva</strong> od verzie %3$s! Namiesto toho použite %4$s."
 
@@ -4172,12 +4183,12 @@ msgstr "Volaná metóda konštruktora triedy pre %1$s v %2$s <strong>sa nepouž�
 msgid "%s is forbidden"
 msgstr "%s je zakázané"
 
-#: wp-includes/class-wp-customize-manager.php:4899
+#: wp-includes/class-wp-customize-manager.php:4939
 msgid "Change logo"
 msgstr "Zmeniť logo"
 
-#: wp-includes/class-wp-customize-manager.php:4898
-#: wp-includes/class-wp-customize-manager.php:4903
+#: wp-includes/class-wp-customize-manager.php:4938
+#: wp-includes/class-wp-customize-manager.php:4943
 msgid "Select logo"
 msgstr "Vybrať logo"
 
@@ -4225,7 +4236,7 @@ msgstr "Neplatný typ objektu"
 msgid "https://codex.wordpress.org/Child_Themes"
 msgstr "https://codex.wordpress.org/Child_Themes"
 
-#: wp-includes/class-wp-customize-manager.php:4890
+#: wp-includes/class-wp-customize-manager.php:4930
 msgid "Logo"
 msgstr "Logo"
 
@@ -4238,24 +4249,24 @@ msgstr "Téma chýba. Samostatné témy musia obsahovať súbor %1$s. <a href=\"
 msgid "Paste URL or type to search"
 msgstr "Vložte URL alebo začnite písať"
 
-#: wp-includes/class-wp-customize-manager.php:4856
-#: wp-includes/class-wp-customize-manager.php:4934
+#: wp-includes/class-wp-customize-manager.php:4896
+#: wp-includes/class-wp-customize-manager.php:4974
 msgid "Display Site Title and Tagline"
 msgstr "Zobraziť názov webovej stránky a slogan"
 
-#: wp-includes/class-wp-customize-manager.php:4757
+#: wp-includes/class-wp-customize-manager.php:4797
 msgid "Enter mobile preview mode"
 msgstr "Zobrazenie pre mobil"
 
-#: wp-includes/class-wp-customize-manager.php:4754
+#: wp-includes/class-wp-customize-manager.php:4794
 msgid "Enter tablet preview mode"
 msgstr "Zobrazenie pre tablet"
 
-#: wp-includes/class-wp-customize-manager.php:4750
+#: wp-includes/class-wp-customize-manager.php:4790
 msgid "Enter desktop preview mode"
 msgstr "Zobrazenie pre dektop"
 
-#: wp-includes/class-wp-customize-manager.php:2058
+#: wp-includes/class-wp-customize-manager.php:2063
 #: wp-includes/customize/class-wp-customize-selective-refresh.php:192
 msgid "Shift-click to edit this element."
 msgstr "Pre úpravu tohto prvku stlačte Shift+tlačítko myši."
@@ -4279,7 +4290,7 @@ msgid "(Current: %s)"
 msgstr "(Momentálne: %s)"
 
 #. translators: %s:      menu location
-#: wp-includes/class-wp-customize-nav-menus.php:416
+#: wp-includes/class-wp-customize-nav-menus.php:432
 msgctxt "menu"
 msgid "(Currently set to: %s)"
 msgstr "(Momentálne nastavené na: %s)"
@@ -4293,12 +4304,12 @@ msgstr "https://codex.wordpress.org/Debugging_a_WordPress_Network"
 msgid "Read the <a href=\"%s\" target=\"_blank\">bug report</a> page. Some of the guidelines there may help you figure out what went wrong."
 msgstr "Pozrite si stránku <a href=\"%s\" target=\"_blank\">bug report</a>. Niektoré z inštrukcií na nej by vám mohli objasniť, kde sa stala chyba."
 
-#: wp-includes/functions.php:4143
+#: wp-includes/functions.php:4144
 msgid "https://codex.wordpress.org/Debugging_in_WordPress"
 msgstr "https://codex.wordpress.org/Debugging_in_WordPress"
 
 #. translators: %s: Codex URL
-#: wp-includes/functions.php:4142
+#: wp-includes/functions.php:4143
 msgid "Please see <a href=\"%s\">Debugging in WordPress</a> for more information."
 msgstr "Prosím pozrite si <a href=\"%s\">Debugovanie vo WordPress</a> pre viac informácií."
 
@@ -4507,66 +4518,66 @@ msgstr "Jazyk webovej stránky:"
 msgid "Author:"
 msgstr "Autor:"
 
-#: wp-includes/wp-db.php:1595
+#: wp-includes/wp-db.php:1588
 msgid "Are you sure that you have typed the correct hostname?"
 msgstr "Ste si istí, či ste zadali správny názov hostiteľa?"
 
-#: wp-includes/wp-db.php:1596 wp-includes/wp-db.php:1753
+#: wp-includes/wp-db.php:1589 wp-includes/wp-db.php:1746
 msgid "Are you sure that the database server is running?"
 msgstr "Ste si istí, že je spustený databázový server?"
 
-#: wp-includes/wp-db.php:1744
+#: wp-includes/wp-db.php:1737
 msgid "Error reconnecting to the database"
 msgstr "Opätovné pripojenie k databáze zlyhalo"
 
 #. translators: %s: database host
-#: wp-includes/wp-db.php:1748
+#: wp-includes/wp-db.php:1741
 msgid "This means that we lost contact with the database server at %s. This could mean your host&#8217;s database server is down."
 msgstr "Toto znamená, že sme stratili kontakt s databázovým serverom na %s. To môže znamenať, že váš hostiteľský databázový server je nedostupný."
 
-#: wp-includes/wp-db.php:1754
+#: wp-includes/wp-db.php:1747
 msgid "Are you sure that the database server is not under particularly heavy load?"
 msgstr "Ste si istí, že databázový server nie je preťažený?"
 
 #. translators: %s: support forums URL
-#: wp-includes/wp-db.php:1601 wp-includes/wp-db.php:1759
+#: wp-includes/wp-db.php:1594 wp-includes/wp-db.php:1752
 msgid "If you&#8217;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href=\"%s\">WordPress Support Forums</a>."
 msgstr "Ak si nie ste istí, čo tieto pojmy znamenajú, pravdepodobne by mali kontaktovať svojho poskytovateľa hostingu. Ak stále potrebujete pomoc, vždy môžete navštíviť <a href=\"%s\">Diskusné fórum</a>."
 
 #. translators: 1: wp-config.php. 2: database host
-#: wp-includes/wp-db.php:1588
+#: wp-includes/wp-db.php:1581
 msgid "This either means that the username and password information in your %1$s file is incorrect or we can&#8217;t contact the database server at %2$s. This could mean your host&#8217;s database server is down."
 msgstr "To buď znamená, že používateľské meno a heslo v súbore %1$s sú nesprávne alebo nemôžeme kontaktovať databázový server na %2$s. Taktiež by to mohlo znamenať, váš hostiteľský databázový server je nedostupný."
 
-#: wp-includes/wp-db.php:1594
+#: wp-includes/wp-db.php:1587
 msgid "Are you sure you have the correct username and password?"
 msgstr "Ste si istí, že máte správne používateľské meno a heslo?"
 
 #. translators: %s: support forums URL
-#: wp-includes/wp-db.php:1068
+#: wp-includes/wp-db.php:1061
 msgid "If you don&#8217;t know how to set up a database you should <strong>contact your host</strong>. If all else fails you may find help at the <a href=\"%s\">WordPress Support Forums</a>."
 msgstr "Ak neviete ako nastaviť databázu, mali by ste <strong>kontaktovať svojho providera</strong>. Ak všetko ostatné zlyhá, môžete nájsť pomoc na <a href=\"%s\">WordPress Diskusnom fóre</a>."
 
-#: wp-includes/wp-db.php:1040
+#: wp-includes/wp-db.php:1033
 msgid "Can&#8217;t select database"
 msgstr "Nie je možné vybrať databázu"
 
-#: wp-includes/wp-db.php:1049
+#: wp-includes/wp-db.php:1042
 msgid "Are you sure it exists?"
 msgstr "Ste si istý, že to existuje?"
 
 #. translators: %s: database name
-#: wp-includes/wp-db.php:1044
+#: wp-includes/wp-db.php:1037
 msgid "We were able to connect to the database server (which means your username and password is okay) but not able to select the %s database."
 msgstr "Pripojenie na databázový server sa podarilo (vaše používateľské meno a heslo sú v poriadku), no nie je možné vybrať databázu %s."
 
 #. translators: 1: database user, 2: database name
-#: wp-includes/wp-db.php:1053
+#: wp-includes/wp-db.php:1046
 msgid "Does the user %1$s have permission to use the %2$s database?"
 msgstr "Má používateľské meno %1$s povolenie používať databázu %2$s?"
 
 #. translators: %s: database name
-#: wp-includes/wp-db.php:1060
+#: wp-includes/wp-db.php:1053
 msgid "On some systems the name of your database is prefixed with your username, so it would be like <code>username_%1$s</code>. Could that be the problem?"
 msgstr "Na niektorých systémoch je názov databázy s predponou vášho používateľského mena, a teda v tvare <code>username_%1$s</code>. Mohol by to byť problém?"
 
@@ -4916,7 +4927,7 @@ msgid "Press return or enter to open this section"
 msgstr "Na otvorenie stlačte späť alebo Enter."
 
 #. translators: %s: document title from the preview
-#: wp-includes/class-wp-customize-manager.php:4335
+#: wp-includes/class-wp-customize-manager.php:4372
 msgid "Live Preview: %s"
 msgstr "Živý náhľad: %s"
 
@@ -4941,7 +4952,7 @@ msgstr "Typ obsahu %1$s nie je zaregistrovaný, a preto bude overenie spôsobilo
 msgid "Sorry, you are not allowed to edit theme options on this site."
 msgstr "Nemáte oprávnenie na úpravu nastavenia témy na tejto webovej stránke."
 
-#: wp-includes/class-wp-customize-nav-menus.php:1005
+#: wp-includes/class-wp-customize-nav-menus.php:1021
 #: wp-includes/class-wp-customize-widgets.php:811
 msgid "Clear Results"
 msgstr "Vyčistiť výsedky"
@@ -4951,7 +4962,7 @@ msgid "The following formatting shortcuts are replaced when pressing Enter. Pres
 msgstr "Nasledovné skratky pre formátovanie sú nahradené po stlačení Enter. Stlač ESC alebo Krok späť pre zrušenie zmien."
 
 #. translators: %s: Title of a section with menu items
-#: wp-includes/class-wp-customize-nav-menus.php:1054
+#: wp-includes/class-wp-customize-nav-menus.php:1070
 msgid "Toggle section: %s"
 msgstr "Prepnúť sekciu: %s"
 
@@ -4974,7 +4985,7 @@ msgstr "Odstrániť položku menu: %1$s (%2$s)"
 msgid "Edit menu item: %1$s (%2$s)"
 msgstr "Upraviť položku menu: %1$s (%2$s)"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1088
+#: wp-includes/class-wp-customize-nav-menus.php:1104
 msgid "Toggle section: Custom Links"
 msgstr "Prepnúť sekciu: Vlastné odkazy"
 
@@ -4990,7 +5001,7 @@ msgstr "Skryť heslo"
 msgid "Show password"
 msgstr "Zobraziť heslo"
 
-#: wp-includes/class-wp-customize-nav-menus.php:419
+#: wp-includes/class-wp-customize-nav-menus.php:435
 msgid "Menu Name"
 msgstr "Názov menu"
 
@@ -5012,7 +5023,7 @@ msgstr "Zobraziť ako ikonu prehliadača"
 msgid "As a browser icon"
 msgstr "Ako ikonu prehliadača"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1050
+#: wp-includes/class-wp-customize-nav-menus.php:1066
 msgid "No items"
 msgstr "Žiadne položky"
 
@@ -5064,16 +5075,16 @@ msgstr "Pridať nový obrázok hlavičky"
 msgid "Hide header image"
 msgstr "Schovať obrázok hlavičky"
 
-#: wp-includes/class-wp-customize-manager.php:4870
+#: wp-includes/class-wp-customize-manager.php:4910
 msgid "Site Icon"
 msgstr "Ikona webovej stránky"
 
-#: wp-includes/class-wp-customize-manager.php:4821
+#: wp-includes/class-wp-customize-manager.php:4861
 msgid "Site Identity"
 msgstr "Identita webovej stránky"
 
 #. translators: 1: Title of a menu item, 2: Type of a menu item
-#: wp-includes/class-wp-customize-nav-menus.php:919
+#: wp-includes/class-wp-customize-nav-menus.php:935
 msgid "Add to menu: %1$s (%2$s)"
 msgstr "Pridať do menu: %1$s (%2$s)"
 
@@ -5081,7 +5092,7 @@ msgstr "Pridať do menu: %1$s (%2$s)"
 msgid "When starting a new paragraph with one of these formatting shortcuts followed by a space, the formatting will be applied automatically. Press Backspace or Escape to undo."
 msgstr "Ak začnete nový odsek s jednou z týchto klávesových skratiek a následne dáte medzeru, použije sa automaticky dané formátovanie. Pre zrušenie stlačte Backspace alebo Escape."
 
-#: wp-includes/wp-db.php:1386 wp-includes/wp-db.php:1403
+#: wp-includes/wp-db.php:1379 wp-includes/wp-db.php:1396
 msgid "WordPress database error:"
 msgstr "Chyba databázy WordPress:"
 
@@ -5105,20 +5116,20 @@ msgstr "Pre nastavenie hesla navštívte nasledujúcu adresu:"
 msgid "Active theme"
 msgstr "Aktívna téma"
 
-#: wp-includes/class-wp-customize-nav-menus.php:441
+#: wp-includes/class-wp-customize-nav-menus.php:457
 msgid "Close reorder mode"
 msgstr "Zavrieť režim preusporiadania"
 
-#: wp-includes/class-wp-customize-nav-menus.php:440
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:44
+#: wp-includes/class-wp-customize-nav-menus.php:456
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:53
 msgid "Reorder menu items"
 msgstr "Preusporiadať položky menu"
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:41
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:50
 msgid "Add or remove menu items"
 msgstr "Pridať alebo odstrániť položky menu"
 
-#: wp-includes/class-wp-customize-nav-menus.php:438
+#: wp-includes/class-wp-customize-nav-menus.php:454
 #: wp-includes/class-wp-customize-widgets.php:761
 msgid "Reorder mode enabled"
 msgstr "Režim preusporiadania zapnutý"
@@ -5127,7 +5138,7 @@ msgstr "Režim preusporiadania zapnutý"
 msgid "Previewing theme"
 msgstr "Náhľad témy"
 
-#: wp-includes/class-wp-customize-nav-menus.php:412
+#: wp-includes/class-wp-customize-nav-menus.php:428
 #: wp-includes/customize/class-wp-customize-nav-menu-setting.php:430
 msgctxt "Missing menu name."
 msgid "(unnamed)"
@@ -5138,7 +5149,7 @@ msgctxt "HTML tag"
 msgid "Preformatted"
 msgstr "Predformátovaný"
 
-#: wp-includes/class-wp-customize-nav-menus.php:562
+#: wp-includes/class-wp-customize-nav-menus.php:578
 msgid "Menus can be displayed in locations defined by your theme."
 msgstr "Menu môžete nechať zobraziť na miestach definovaných vašou témou."
 
@@ -5153,21 +5164,21 @@ msgid "%1$s (%2$d)"
 msgstr "%1$s (%2$d)"
 
 #. translators: URL to the widgets panel of the customizer
-#: wp-includes/class-wp-customize-nav-menus.php:560
+#: wp-includes/class-wp-customize-nav-menus.php:576
 msgid "Menus can be displayed in locations defined by your theme or in <a href=\"%s\">widget areas</a> by adding a &#8220;Navigation Menu&#8221; widget."
 msgstr "Menu môžete nechať zobraziť na miestach definovaných vašou témou alebo v <a href=\"%s\">oblastiach na widgety</a> pridaním widgetu &#8222;Vlastné menu&#8220;."
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:49
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:58
 msgid "When in reorder mode, additional controls to reorder menu items will be available in the items list above."
 msgstr "V móde preskupenia budete mať v zozname vyššie dostupné ďalšie možnosti. "
 
-#: wp-includes/class-wp-customize-nav-menus.php:439
+#: wp-includes/class-wp-customize-nav-menus.php:455
 #: wp-includes/class-wp-customize-widgets.php:762
 msgid "Reorder mode closed"
 msgstr "Režim preusporiadania nie je povolený"
 
 #. translators: 1: PHP class name, 2: version number, 3: __construct() method
-#: wp-includes/functions.php:3904
+#: wp-includes/functions.php:3905
 msgid "The called constructor method for %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "Volaná metóda konštruktora pre %1$s <strong>sa už nepoužíva</strong> od verzie %2$s! Použite radšej %3$s."
 
@@ -5343,8 +5354,8 @@ msgid "'tain't,'twere,'twas,'tis,'twill,'til,'bout,'nuff,'round,'cause,'em"
 msgstr "čos',ktos',bols'"
 
 #: wp-includes/widgets/class-wp-widget-custom-html.php:258
-#: wp-includes/widgets/class-wp-widget-text.php:464
-#: wp-includes/widgets/class-wp-widget-text.php:525
+#: wp-includes/widgets/class-wp-widget-text.php:485
+#: wp-includes/widgets/class-wp-widget-text.php:546
 msgid "Content:"
 msgstr "Obsah:"
 
@@ -5389,60 +5400,60 @@ msgstr "Možnosti menu"
 msgid "Customizing"
 msgstr "Prispôsobujete"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1104
+#: wp-includes/class-wp-customize-nav-menus.php:1120
 msgid "Add to Menu"
 msgstr "Pridať do menu"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1001
+#: wp-includes/class-wp-customize-nav-menus.php:1017
 #: wp-includes/class-wp-customize-widgets.php:812
 #: wp-includes/customize/class-wp-customize-themes-section.php:119
 #: wp-includes/customize/class-wp-customize-themes-section.php:134
 msgid "The search results will be updated as you type."
 msgstr "Výsledky vyhľadávania sa zobrazujú už počas písania."
 
-#: wp-includes/class-wp-customize-nav-menus.php:1000
+#: wp-includes/class-wp-customize-nav-menus.php:1016
 msgid "Search menu items&hellip;"
 msgstr "Hľadať položky menu&hellip;"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1086
+#: wp-includes/class-wp-customize-nav-menus.php:1102
 msgid "Custom Links"
 msgstr "Vlastné odkazy"
 
-#: wp-includes/class-wp-customize-nav-menus.php:417
+#: wp-includes/class-wp-customize-nav-menus.php:433
 msgid "Menu Locations"
 msgstr "Umiestnenia menu"
 
-#: wp-includes/class-wp-customize-nav-menus.php:934
+#: wp-includes/class-wp-customize-nav-menus.php:950
 msgid "Move one level up"
 msgstr "Posunuť o úroveň vyššie"
 
-#: wp-includes/class-wp-customize-nav-menus.php:935
+#: wp-includes/class-wp-customize-nav-menus.php:951
 msgid "Move one level down"
 msgstr "Posunuť o úroveň nižšie"
 
-#: wp-includes/class-wp-customize-nav-menus.php:994
+#: wp-includes/class-wp-customize-nav-menus.php:1010
 msgid "Add Menu Items"
 msgstr "Pridať položky menu"
 
-#: wp-includes/class-wp-customize-nav-menus.php:999
+#: wp-includes/class-wp-customize-nav-menus.php:1015
 msgid "Search Menu Items"
 msgstr "Hľadať položky menu"
 
-#: wp-includes/class-wp-customize-nav-menus.php:557
+#: wp-includes/class-wp-customize-nav-menus.php:573
 msgid "This panel is used for managing navigation menus for content you have already published on your site. You can create menus and add items for existing content such as pages, posts, categories, tags, formats, or custom links."
 msgstr "Tento panel sa používa pre manažovanie navigačných menu. Do menu môžete vkladať už vytvorený obsah vašej webovej stránky. Môžete vytvoriť nové menu a pridať do neho jednotlivé položky ako napríklad stránky, články, kategórie, značky, formáty alebo vlastné odkazy."
 
 #. translators: &#9656; is the unicode right-pointing triangle, and %s is the
 #. section title in the Customizer
-#: wp-includes/class-wp-customize-nav-menus.php:430
-#: wp-includes/class-wp-customize-nav-menus.php:991
+#: wp-includes/class-wp-customize-nav-menus.php:446
+#: wp-includes/class-wp-customize-nav-menus.php:1007
 #: wp-includes/class-wp-customize-section.php:230
 #: wp-includes/class-wp-customize-widgets.php:802
 msgid "Customizing &#9656; %s"
 msgstr "Prispôsobujete &#9656; %s"
 
 #. translators: %s: number of menu locations
-#: wp-includes/class-wp-customize-nav-menus.php:579
+#: wp-includes/class-wp-customize-nav-menus.php:595
 msgid "Your theme can display menus in %s location. Select which menu you would like to use."
 msgid_plural "Your theme can display menus in %s locations. Select which menu appears in each location."
 msgstr[0] "Vaša téma obsahuje %s umiestnenie pre menu. Zvoľte si, ktoré menu chcete použiť."
@@ -5450,102 +5461,103 @@ msgstr[1] "Vaša téma obsahuje %s umiestnenia pre menu. Zvoľte, ktoré menu sa
 msgstr[2] "Vaša téma obsahuje %s umiestnení pre menu. Zvoľte, ktoré menu sa má zobrazovať na jednotlivých umiestneniach."
 
 #. translators: 1: item name, 2: item position, 3: parent item name
-#: wp-includes/class-wp-customize-nav-menus.php:472
+#: wp-includes/class-wp-customize-nav-menus.php:488
 msgid "%1$s. Sub item number %2$d under %3$s."
 msgstr "%1$s. Pod položka menu %2$d z miesta pod %3$s."
 
 #. translators: 1: item name, 2: item position, 3: total number of items
-#: wp-includes/class-wp-customize-nav-menus.php:470
+#: wp-includes/class-wp-customize-nav-menus.php:486
 msgid "%1$s. Menu item %2$d of %3$d."
 msgstr "%1$s. Položka menu %2$d z %3$d."
 
 #. translators: %s: previous item name
-#: wp-includes/class-wp-customize-nav-menus.php:468
+#: wp-includes/class-wp-customize-nav-menus.php:484
 msgid "Out from under %s"
 msgstr "Von z miesta pod %s"
 
 #. translators: %s: previous item name
-#: wp-includes/class-wp-customize-nav-menus.php:466
+#: wp-includes/class-wp-customize-nav-menus.php:482
 msgid "Under %s"
 msgstr "Pod %s"
 
 #. translators: %s: previous item name
-#: wp-includes/class-wp-customize-nav-menus.php:464
+#: wp-includes/class-wp-customize-nav-menus.php:480
 msgid "Move out from under %s"
 msgstr "Posunúť z miesta pod %s"
 
 #. translators: %s: previous item name
-#: wp-includes/class-wp-customize-nav-menus.php:462
+#: wp-includes/class-wp-customize-nav-menus.php:478
 msgid "Move under %s"
 msgstr "Posunúť pod %s"
 
-#: wp-includes/class-wp-customize-nav-menus.php:460
+#: wp-includes/class-wp-customize-nav-menus.php:476
 msgid "Move to the top"
 msgstr "Presun na najvyššiu úroveň"
 
-#: wp-includes/class-wp-customize-nav-menus.php:459
+#: wp-includes/class-wp-customize-nav-menus.php:475
 msgid "Move down one"
 msgstr "Presun o úroveň nižšie"
 
-#: wp-includes/class-wp-customize-nav-menus.php:458
+#: wp-includes/class-wp-customize-nav-menus.php:474
 msgid "Move up one"
 msgstr "Posunúť o jedno nahor"
 
-#: wp-includes/class-wp-customize-nav-menus.php:437
+#: wp-includes/class-wp-customize-nav-menus.php:453
 msgid "Loading more results... please wait."
 msgstr "Načítava sa viac výsledkov... prosím počkajte."
 
-#: wp-includes/class-wp-customize-nav-menus.php:436
+#: wp-includes/class-wp-customize-nav-menus.php:452
 msgid "Additional items found: %d"
 msgstr "Dodatočne najdené položky: %d"
 
-#: wp-includes/class-wp-customize-nav-menus.php:435
+#: wp-includes/class-wp-customize-nav-menus.php:451
 msgid "Number of items found: %d"
 msgstr "Počet nájdených položiek: %d"
 
 #. translators: %s: title of menu item in draft status
-#: wp-includes/class-wp-customize-nav-menus.php:434
+#: wp-includes/class-wp-customize-nav-menus.php:450
 msgid "%s (Pending)"
 msgstr "%s (Čaká)"
 
 #. translators: %s: title of menu item which is invalid
-#: wp-includes/class-wp-customize-nav-menus.php:432
+#: wp-includes/class-wp-customize-nav-menus.php:448
 msgid "%s (Invalid)"
 msgstr "%s (Neplatný)"
 
-#: wp-includes/class-wp-customize-nav-menus.php:423
+#: wp-includes/class-wp-customize-nav-menus.php:439
 msgid "Menu created"
 msgstr "Menu vytvorené"
 
-#: wp-includes/class-wp-customize-nav-menus.php:424
+#: wp-includes/class-wp-customize-nav-menus.php:440
 msgid "Menu deleted"
 msgstr "Menu odstránené"
 
-#: wp-includes/class-wp-customize-nav-menus.php:421
+#: wp-includes/class-wp-customize-nav-menus.php:437
 msgid "Menu item added"
 msgstr "Položka menu pridaná"
 
-#: wp-includes/class-wp-customize-nav-menus.php:422
+#: wp-includes/class-wp-customize-nav-menus.php:438
 msgid "Menu item deleted"
 msgstr "Položka menu odtránená"
 
-#: wp-includes/class-wp-customize-nav-menus.php:425
+#: wp-includes/class-wp-customize-nav-menus.php:441
 msgid "Menu item moved up"
 msgstr "Položka menu presunutá vyššie"
 
-#: wp-includes/class-wp-customize-nav-menus.php:426
+#: wp-includes/class-wp-customize-nav-menus.php:442
 msgid "Menu item moved down"
 msgstr "Položka menu presunutá nižšie"
 
-#: wp-includes/class-wp-customize-nav-menus.php:427
+#: wp-includes/class-wp-customize-nav-menus.php:443
 msgid "Menu item moved out of submenu"
 msgstr "Položka menu presunutá von z vnoreného menu"
 
-#: wp-includes/class-wp-customize-nav-menus.php:428
+#: wp-includes/class-wp-customize-nav-menus.php:444
 msgid "Menu item is now a sub-item"
 msgstr "Položka menu je teraz podpoložka"
 
 #: wp-includes/class-wp-customize-nav-menus.php:153
+#: wp-includes/class-wp-customize-nav-menus.php:375
 msgctxt "nav menu home label"
 msgid "Home"
 msgstr "Domov"
@@ -5586,7 +5598,7 @@ msgstr "Otvoriť odkaz v novej karte"
 msgid "Navigation Label"
 msgstr "Navigačný štítok"
 
-#: wp-includes/class-wp-customize-nav-menus.php:417
+#: wp-includes/class-wp-customize-nav-menus.php:433
 msgid "Menu Location"
 msgstr "Umiestnenia menu"
 
@@ -5594,11 +5606,11 @@ msgstr "Umiestnenia menu"
 msgid "Automatically add new top-level pages to this menu"
 msgstr "Automaticky pridať stránky prvej úrovne do tohto menu."
 
-#: wp-includes/class-wp-customize-nav-menus.php:944
+#: wp-includes/class-wp-customize-nav-menus.php:960
 msgid "Delete Menu"
 msgstr "Zmazať menu"
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:42
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:38
 msgid "Add Items"
 msgstr "Pridať položky"
 
@@ -5714,6 +5726,36 @@ msgstr "Inštaluje sa... počkajte, prosím."
 msgid "Customizer"
 msgstr "Prispôsobiť"
 
+#. translators: Do not translate USERNAME, PASSWORD, LOGINLINK, SITE_NAME:
+#. those are placeholders.
+#: wp-includes/ms-functions.php:2230
+msgid ""
+"Howdy USERNAME,\n"
+"\n"
+"Your new account is set up.\n"
+"\n"
+"You can log in with the following information:\n"
+"Username: USERNAME\n"
+"Password: PASSWORD\n"
+"LOGINLINK\n"
+"\n"
+"Thanks!\n"
+"\n"
+"--The Team @ SITE_NAME"
+msgstr ""
+"Zdravím USERNAME,\n"
+"\n"
+"Váš nový účet bol úspešne vytvorený.\n"
+"\n"
+"Môžete sa prihlásiť s použitím týchto údajov:\n"
+"Používateľské meno: USERNAME\n"
+"Heslo: PASSWORD\n"
+"LOGINLINK\n"
+"\n"
+"Ďakujeme!\n"
+"\n"
+"--Tím @ SITE_NAME"
+
 #. translators: Do not translate USERNAME, SITE_NAME, BLOG_URL, PASSWORD: those
 #. are placeholders.
 #: wp-includes/ms-functions.php:1556
@@ -5747,36 +5789,6 @@ msgstr ""
 "\n"
 "--Tím @ SITE_NAME"
 
-#. translators: Do not translate USERNAME, PASSWORD, LOGINLINK, SITE_NAME:
-#. those are placeholders.
-#: wp-includes/ms-functions.php:2230
-msgid ""
-"Howdy USERNAME,\n"
-"\n"
-"Your new account is set up.\n"
-"\n"
-"You can log in with the following information:\n"
-"Username: USERNAME\n"
-"Password: PASSWORD\n"
-"LOGINLINK\n"
-"\n"
-"Thanks!\n"
-"\n"
-"--The Team @ SITE_NAME"
-msgstr ""
-"Zdravím USERNAME,\n"
-"\n"
-"Váš nový účet bol úspešne vytvorený.\n"
-"\n"
-"Môžete sa prihlásiť s použitím týchto údajov:\n"
-"Používateľské meno: USERNAME\n"
-"Heslo: PASSWORD\n"
-"LOGINLINK\n"
-"\n"
-"Ďakujeme!\n"
-"\n"
-"--Tím @ SITE_NAME"
-
 #. translators: revision date format, see https://secure.php.net/date
 #: wp-includes/post-template.php:1709 wp-includes/post-template.php:1745
 msgctxt "revision date format"
@@ -5794,7 +5806,8 @@ msgid "<strong>Could not find site %1$s.</strong> Searched for table %2$s in dat
 msgstr "<strong>Nie je možné nájsť stránku: %1$s.</strong> Vyhľadávala sa tabuľka %2$s v databáze %3$s. Je to tak správne?"
 
 #: wp-includes/class-wp-customize-nav-menus.php:155
-#: wp-includes/class-wp-customize-nav-menus.php:413
+#: wp-includes/class-wp-customize-nav-menus.php:382
+#: wp-includes/class-wp-customize-nav-menus.php:429
 #: wp-includes/customize/class-wp-customize-nav-menu-item-setting.php:322
 #: wp-includes/nav-menu.php:821
 msgid "Custom Link"
@@ -5837,7 +5850,7 @@ msgstr[0] " %1$s komentár <span class=\"screen-reader-text\"> na %2$s</span>"
 msgstr[1] " %1$s komentáre <span class=\"screen-reader-text\"> na %2$s</span>"
 msgstr[2] " %1$s komentárov <span class=\"screen-reader-text\"> na %2$s</span>"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1099
+#: wp-includes/class-wp-customize-nav-menus.php:1115
 #: wp-includes/class-wp-editor.php:1704 wp-includes/media-template.php:820
 msgid "Link Text"
 msgstr "Text odkazu"
@@ -5930,7 +5943,7 @@ msgstr "Musíte zadať typ poľa."
 
 #. translators: %s: database access abstraction class, usually wpdb or a class
 #. extending wpdb
-#: wp-includes/wp-db.php:1117
+#: wp-includes/wp-db.php:1110
 msgid "%s must set a database connection for use with escaping."
 msgstr "Pre opustenie musí %s nastaviť napojenie na databázu."
 
@@ -6247,7 +6260,7 @@ msgstr "Zrušiť označenie"
 msgid "Delete Selected"
 msgstr "Vymazať označené"
 
-#: wp-includes/class-wp-customize-nav-menus.php:411
+#: wp-includes/class-wp-customize-nav-menus.php:427
 #: wp-includes/script-loader.php:888
 msgctxt "missing menu item navigation label"
 msgid "(no label)"
@@ -6390,7 +6403,7 @@ msgid "Widgets are independent sections of content that can be placed into widge
 msgstr "Widgety sú nezávislé oddiely obsahu, ktoré majú vlastné oblasti umiestnení (volajú sa bočné panely)."
 
 #: wp-includes/update.php:154 wp-includes/update.php:346
-#: wp-includes/update.php:524
+#: wp-includes/update.php:528
 msgid "(WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.)"
 msgstr "(WordPress nemôže naviazať bezpečné pripojenie na server WordPress.org. Prosím kontaktujte svojho administrátora.)"
 
@@ -6808,7 +6821,7 @@ msgstr "Kotva"
 msgid "Add alternate sources for maximum HTML5 playback:"
 msgstr "Pridajte alternatívne zdroje pre maximalizáciu prehrávania HTML5:"
 
-#: wp-includes/class-wp-customize-nav-menus.php:985
+#: wp-includes/class-wp-customize-nav-menus.php:1001
 #: wp-includes/class-wp-customize-panel.php:359
 #: wp-includes/class-wp-customize-section.php:350
 #: wp-includes/class-wp-customize-widgets.php:797
@@ -6983,7 +6996,7 @@ msgstr "Nahrať zoznam videí"
 msgid "Add to video playlist"
 msgstr "Pridať do zoznamu videí"
 
-#: wp-includes/wp-db.php:1237
+#: wp-includes/wp-db.php:1230
 msgid "The query argument of %s must have a placeholder."
 msgstr "Argument dopytu %s musí obsahovať zástupný znak."
 
@@ -7007,12 +7020,12 @@ msgstr "Štýl"
 msgid "Alternative source"
 msgstr "Alternatívny zdroj"
 
-#: wp-includes/class-wp-customize-nav-menus.php:933
+#: wp-includes/class-wp-customize-nav-menus.php:949
 #: wp-includes/class-wp-customize-widgets.php:684
 msgid "Move down"
 msgstr "Posuň hore"
 
-#: wp-includes/class-wp-customize-nav-menus.php:932
+#: wp-includes/class-wp-customize-nav-menus.php:948
 #: wp-includes/class-wp-customize-widgets.php:685
 msgid "Move up"
 msgstr "Posuň dolu"
@@ -7134,9 +7147,9 @@ msgid "Keywords"
 msgstr "Kľúčové slová"
 
 #: wp-includes/admin-bar.php:164 wp-includes/update.php:153
-#: wp-includes/update.php:345 wp-includes/update.php:523
-#: wp-includes/wp-db.php:1069 wp-includes/wp-db.php:1602
-#: wp-includes/wp-db.php:1760 wp-login.php:882
+#: wp-includes/update.php:345 wp-includes/update.php:527
+#: wp-includes/wp-db.php:1062 wp-includes/wp-db.php:1595
+#: wp-includes/wp-db.php:1753 wp-login.php:882
 msgid "https://wordpress.org/support/"
 msgstr "https://wordpress.org/support/"
 
@@ -7261,7 +7274,7 @@ msgstr "Náhodne meníť poradie nahratých hlavičiek"
 msgid "Randomize suggested headers"
 msgstr "Náhodne meniť poradie odporúčaných hlavičiek"
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:45
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:54
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:60
 msgid "Reorder"
 msgstr "Preusporiadať"
@@ -7278,22 +7291,22 @@ msgstr "Nové okno"
 msgid "Finnish"
 msgstr "Fínština"
 
-#: wp-includes/general-template.php:3910
+#: wp-includes/general-template.php:3912
 msgctxt "admin color scheme"
 msgid "Sunrise"
 msgstr "Východ slnka"
 
-#: wp-includes/general-template.php:3916
+#: wp-includes/general-template.php:3918
 msgctxt "admin color scheme"
 msgid "Ectoplasm"
 msgstr "Ektoplazma"
 
-#: wp-includes/general-template.php:3922
+#: wp-includes/general-template.php:3924
 msgctxt "admin color scheme"
 msgid "Ocean"
 msgstr "Oceán"
 
-#: wp-includes/general-template.php:3928
+#: wp-includes/general-template.php:3930
 msgctxt "admin color scheme"
 msgid "Coffee"
 msgstr "Káva"
@@ -7350,17 +7363,17 @@ msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: wp-includes/general-template.php:3881
+#: wp-includes/general-template.php:3883
 msgctxt "admin color scheme"
 msgid "Default"
 msgstr "Základná"
 
-#: wp-includes/general-template.php:3892
+#: wp-includes/general-template.php:3894
 msgctxt "admin color scheme"
 msgid "Light"
 msgstr "Svetlá"
 
-#: wp-includes/general-template.php:3904
+#: wp-includes/general-template.php:3906
 msgctxt "admin color scheme"
 msgid "Midnight"
 msgstr "Polnočná"
@@ -7379,7 +7392,7 @@ msgstr "no-subset"
 
 #. translators: %s: support forums URL
 #: wp-includes/update.php:152 wp-includes/update.php:344
-#: wp-includes/update.php:522
+#: wp-includes/update.php:526
 msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
 msgstr "Nastala neočakávaná chyba. Buďto je problém na WordPress.org alebo konfigurácia servera je chybná. Ak problémy budu pretrvávať, skúste navštíviť <a href=\"%s\">fóra podpory [EN]</a>."
 
@@ -7387,7 +7400,7 @@ msgstr "Nastala neočakávaná chyba. Buďto je problém na WordPress.org alebo 
 msgid "Menu"
 msgstr "Menu"
 
-#: wp-includes/update.php:629
+#: wp-includes/update.php:633
 msgid "Translation Updates"
 msgstr "Aktualizácie prekladov"
 
@@ -7568,7 +7581,7 @@ msgstr "%2$s. %1$s %3$s, %4$s:%5$s"
 msgid "The site you were looking for, %s, does not exist, but you can create it now!"
 msgstr "Stránka %s neexistuje. No môžete ju vytvoriť!"
 
-#: wp-includes/functions.php:5329
+#: wp-includes/functions.php:5330
 msgid "The login page will open in a new window. After logging in you can close it and return to this page."
 msgstr "Prihlasovacia stránka sa otvorí v novom okne. Po prihlásení ju môžete zatvoriť a vrátiť sa na túto stránku."
 
@@ -7593,7 +7606,7 @@ msgctxt "label"
 msgid "Search for:"
 msgstr "Hľadať:"
 
-#: wp-includes/functions.php:5327 wp-includes/script-loader.php:568
+#: wp-includes/functions.php:5328 wp-includes/script-loader.php:568
 msgid "Session expired"
 msgstr "Platnosť relácie vypršala."
 
@@ -8057,11 +8070,11 @@ msgstr "Textový editor (HTML)"
 msgid "Skip to toolbar"
 msgstr "Prejsť na panel nástrojov"
 
-#: wp-includes/class-wp-customize-manager.php:4941
+#: wp-includes/class-wp-customize-manager.php:4981
 msgid "Header Text Color"
 msgstr "Farba textu hlavičky"
 
-#: wp-includes/class-wp-customize-manager.php:4918
+#: wp-includes/class-wp-customize-manager.php:4958
 msgid "Colors"
 msgstr "Farby"
 
@@ -8095,7 +8108,7 @@ msgstr "Nemôžete pripnúť článok, ktorý je súkromný."
 msgid "Sorry, you are not allowed to publish this page."
 msgstr "Nemáte oprávnenie publikovať túto stránku."
 
-#: wp-includes/class-wp-customize-manager.php:4991
+#: wp-includes/class-wp-customize-manager.php:5031
 #: wp-includes/customize/class-wp-customize-header-image-control.php:31
 msgid "Header Image"
 msgstr "Obrázok hlavičky"
@@ -8140,15 +8153,15 @@ msgstr[0] "Názov stránky musí obsahovať najmenej %s znak."
 msgstr[1] "Názov stránky musí obsahovať najmenej %s znaky."
 msgstr[2] "Názov stránky musí obsahovať najmenej %s znakov."
 
-#: wp-includes/class-wp-customize-manager.php:5198
+#: wp-includes/class-wp-customize-manager.php:5238
 msgid "A static page"
 msgstr "Statická stránka"
 
-#: wp-includes/class-wp-customize-manager.php:4956
+#: wp-includes/class-wp-customize-manager.php:4996
 msgid "Background Color"
 msgstr "Farba pozadia"
 
-#: wp-includes/class-wp-customize-manager.php:5065
+#: wp-includes/class-wp-customize-manager.php:5105
 #: wp-includes/customize/class-wp-customize-background-image-control.php:30
 msgid "Background Image"
 msgstr "Obrázok pozadia"
@@ -8165,11 +8178,11 @@ msgstr "Odstrániť obrázok"
 msgid "Sorry, you are not allowed to edit this comment."
 msgstr "Nemáte oprávnenie na úpravu tohto komentára."
 
-#: wp-includes/class-wp-customize-manager.php:5220
+#: wp-includes/class-wp-customize-manager.php:5260
 msgid "Posts page"
 msgstr "Stránka s článkami"
 
-#: wp-includes/class-wp-customize-manager.php:4900
+#: wp-includes/class-wp-customize-manager.php:4940
 #: wp-includes/class-wp-customize-widgets.php:753
 #: wp-includes/class-wp-editor.php:1258
 #: wp-includes/customize/class-wp-customize-media-control.php:226
@@ -8292,22 +8305,22 @@ msgstr "Šablóna štýlu nie je čitateľná."
 msgid "ERROR: The themes directory is either empty or doesn&#8217;t exist. Please check your installation."
 msgstr "CHYBA: Adresár tém je buď prázdny, alebo neexistuje. Prosím skontrolujte Vašu instaláciu."
 
-#: wp-includes/class-wp-customize-manager.php:4843
+#: wp-includes/class-wp-customize-manager.php:4883
 msgid "Tagline"
 msgstr "Slogan"
 
-#: wp-includes/class-wp-customize-manager.php:5197
+#: wp-includes/class-wp-customize-manager.php:5237
 msgid "Your latest posts"
 msgstr "Najnovšie články"
 
 #: wp-includes/class-wp-customize-control.php:586
-#: wp-includes/class-wp-customize-nav-menus.php:594
+#: wp-includes/class-wp-customize-nav-menus.php:610
 #: wp-includes/widgets/class-wp-nav-menu-widget.php:143
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Vyberte si &mdash; "
 
 #. translators: %s: document title from the preview
-#: wp-includes/class-wp-customize-manager.php:4332
+#: wp-includes/class-wp-customize-manager.php:4369
 msgid "Customize: %s"
 msgstr "Prispôsobiť: %s"
 
@@ -8429,18 +8442,6 @@ msgctxt "apostrophe"
 msgid "&#8217;"
 msgstr "&#8217;"
 
-#. translators: closing curly single quote
-#: wp-includes/formatting.php:113
-msgctxt "closing curly single quote"
-msgid "&#8217;"
-msgstr "&#8217;"
-
-#. translators: opening curly single quote
-#: wp-includes/formatting.php:111
-msgctxt "opening curly single quote"
-msgid "&#8216;"
-msgstr "&#8216;"
-
 #. translators: prime, for example in 9' (nine feet)
 #: wp-includes/formatting.php:106
 msgctxt "prime"
@@ -8465,6 +8466,18 @@ msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8222;"
 
+#. translators: closing curly single quote
+#: wp-includes/formatting.php:113
+msgctxt "closing curly single quote"
+msgid "&#8217;"
+msgstr "&#8216;"
+
+#. translators: opening curly single quote
+#: wp-includes/formatting.php:111
+msgctxt "opening curly single quote"
+msgid "&#8216;"
+msgstr "&#8218;"
+
 #: wp-signup.php:174
 msgid "Allow search engines to index this site."
 msgstr "Povoliť vyhľadávacím službám indexovanie tohto webu."
@@ -8478,7 +8491,7 @@ msgstr "Vytvoriť konfiguračný súbor"
 msgid "You can create a %s file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file."
 msgstr "Súbor %s môžete vytvoriť cez webové rozhranie, no nefunguje to pre všetky nastavenia serverov. Najbezpečnejšia cesta je vytvoriť si súbor manuálne."
 
-#: wp-includes/class-wp-customize-manager.php:5231
+#: wp-includes/class-wp-customize-manager.php:5271
 msgid "https://codex.wordpress.org/CSS"
 msgstr "https://codex.wordpress.org/CSS"
 
@@ -8597,16 +8610,16 @@ msgstr "Dokumentácia"
 msgid "Support Forums"
 msgstr "Fórum technickej podpory"
 
-#: wp-includes/formatting.php:3361 wp-includes/general-template.php:3800
+#: wp-includes/formatting.php:3361 wp-includes/general-template.php:3802
 msgid "&hellip;"
 msgstr "&hellip;"
 
-#: wp-includes/functions.php:3773
+#: wp-includes/functions.php:3774
 msgid "Database Error"
 msgstr "Chyba databázy"
 
-#: wp-includes/functions.php:3777 wp-includes/ms-load.php:455
-#: wp-includes/wp-db.php:1584
+#: wp-includes/functions.php:3778 wp-includes/ms-load.php:455
+#: wp-includes/wp-db.php:1577
 msgid "Error establishing a database connection"
 msgstr "Chyba pri nadväzovaní spojenia s databázou"
 
@@ -8659,7 +8672,7 @@ msgstr "Bola prekročená maximálna veľkosť súboru. Skúste iný súbor."
 msgid "This file is not an image. Please try another."
 msgstr "Tento súbor nie je obrázok. Skúste iný súbor."
 
-#: wp-includes/general-template.php:3898
+#: wp-includes/general-template.php:3900
 msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Modrá"
@@ -8784,13 +8797,13 @@ msgid "The user is already active."
 msgstr "Užívateľ je už aktívny."
 
 #. translators: %s: version number
-#: wp-includes/functions.php:4139
+#: wp-includes/functions.php:4140
 msgid "(This message was added in version %s.)"
 msgstr "(Táto správa bola pridaná vo verzii %s.)"
 
 #. translators: Developer debugging message. 1: PHP function name, 2:
 #. Explanatory message, 3: Version information message
-#: wp-includes/functions.php:4146
+#: wp-includes/functions.php:4147
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "%1$s bola volaná <strong>nesprávne</strong>. %2$s %3$s"
 
@@ -9445,12 +9458,12 @@ msgid "This is the short link."
 msgstr "Toto je krátky odkaz."
 
 #. translators: 1: Number of updates available to WordPress
-#: wp-includes/update.php:618
+#: wp-includes/update.php:622
 msgid "%d WordPress Update"
 msgstr "%d aktualízácia WordPress"
 
 #. translators: 1: Number of updates available to themes
-#: wp-includes/update.php:626
+#: wp-includes/update.php:630
 msgid "%d Theme Update"
 msgid_plural "%d Theme Updates"
 msgstr[0] "%d aktualizácia témy"
@@ -9458,7 +9471,7 @@ msgstr[1] "%d aktualizácie tém"
 msgstr[2] "%d aktualizácií tém"
 
 #. translators: 1: Number of updates available to plugins
-#: wp-includes/update.php:622
+#: wp-includes/update.php:626
 msgid "%d Plugin Update"
 msgid_plural "%d Plugin Updates"
 msgstr[0] "%d aktualizácia pluginu"
@@ -9583,7 +9596,7 @@ msgid "One response to %s"
 msgstr "Jedna odpoveď na %s"
 
 #: wp-includes/admin-bar.php:836
-#: wp-includes/class-wp-customize-nav-menus.php:565
+#: wp-includes/class-wp-customize-nav-menus.php:581
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:98
 msgid "Menus"
 msgstr "Menu"
@@ -9694,12 +9707,12 @@ msgstr "Uvedená cieľová adresa URL neexistuje."
 
 #. translators: 1: Database error message, 2: SQL query, 3: Name of the calling
 #. function
-#: wp-includes/wp-db.php:1370
+#: wp-includes/wp-db.php:1363
 msgid "WordPress database error %1$s for query %2$s made by %3$s"
 msgstr "Chyba wordpress databázy %1$s pre požiadavku %2$s vykonanú %3$s"
 
 #. translators: 1: Database error message, 2: SQL query
-#: wp-includes/wp-db.php:1373
+#: wp-includes/wp-db.php:1366
 msgid "WordPress database error %1$s for query %2$s"
 msgstr "Chyba wordpress databázy %1$s pre požiadavku %2$s"
 
@@ -9746,7 +9759,7 @@ msgstr "Ako tento používateľ nemáte oprávnenie upravovať autora."
 msgid "Sorry, you are not allowed access to details of this post."
 msgstr "Nemáte oprávnenie na prístup k detailom tohto článku."
 
-#: wp-includes/class-wp-customize-nav-menus.php:789
+#: wp-includes/class-wp-customize-nav-menus.php:805
 #: wp-includes/class-wp-xmlrpc-server.php:1377
 #: wp-includes/class-wp-xmlrpc-server.php:1861
 #: wp-includes/class-wp-xmlrpc-server.php:3381
@@ -10005,27 +10018,27 @@ msgstr "Prázdny názov súboru"
 msgid "Could not write file %s"
 msgstr "Nemôžem uložiť súbor %s"
 
-#: wp-includes/functions.php:2616
+#: wp-includes/functions.php:2617
 msgid "WordPress Failure Notice"
 msgstr "Hlásenie o chybe"
 
-#: wp-includes/functions.php:2611 wp-includes/ms-functions.php:2047
+#: wp-includes/functions.php:2612 wp-includes/ms-functions.php:2047
 msgid "Please try again."
 msgstr "Skúste znovu."
 
-#: wp-includes/functions.php:2736
+#: wp-includes/functions.php:2737
 msgid "&laquo; Back"
 msgstr "&laquo; Späť"
 
-#: wp-includes/functions.php:2748 wp-load.php:92
+#: wp-includes/functions.php:2749 wp-load.php:92
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Chyba"
 
-#: wp-includes/functions.php:4669
+#: wp-includes/functions.php:4670
 msgid "Select a city"
 msgstr "Vyberte mesto"
 
-#: wp-includes/functions.php:4714 wp-includes/functions.php:4718
+#: wp-includes/functions.php:4715 wp-includes/functions.php:4719
 msgid "UTC"
 msgstr "UTC"
 
@@ -10099,11 +10112,11 @@ msgstr "KRSS kanál tagu %1$s %2$s %3$s"
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
 msgstr "%1$s %2$s Výsledky vyhľadávania: &#8220;%3$s&#8221; RSS kanál"
 
-#: wp-includes/general-template.php:3714
+#: wp-includes/general-template.php:3716
 msgid "&laquo; Previous"
 msgstr "&laquo; Predošlá"
 
-#: wp-includes/general-template.php:3715
+#: wp-includes/general-template.php:3717
 msgid "Next &raquo;"
 msgstr "Ďalej &raquo;"
 
@@ -10291,7 +10304,7 @@ msgstr "Horný index"
 msgid "Cut"
 msgstr "Vystrihnúť"
 
-#: wp-includes/class-wp-customize-manager.php:4165
+#: wp-includes/class-wp-customize-manager.php:4202
 #: wp-includes/class-wp-editor.php:1045
 msgid "Copy"
 msgstr "Kopírovať"
@@ -10659,14 +10672,14 @@ msgstr "%1$s %2$s - kanál článkov od %3$s"
 msgid "Invalid activation key."
 msgstr "Neplatný aktivačný kľúč."
 
-#: wp-includes/class-wp-customize-nav-menus.php:951
+#: wp-includes/class-wp-customize-nav-menus.php:967
 #: wp-includes/script-loader.php:1129 wp-signup.php:562
 msgid "Next"
 msgstr "Ďalej"
 
 #. translators: 1: WordPress version number, 2: Minimum required MySQL version
 #. number
-#: wp-includes/wp-db.php:3318
+#: wp-includes/wp-db.php:3311
 msgid "<strong>ERROR</strong>: WordPress %1$s requires MySQL %2$s or higher"
 msgstr "<strong>CHYBA</strong>: WordPress %1$s vyžaduje MySQL %2$s alebo vyššie"
 
@@ -10769,7 +10782,7 @@ msgid "Stylesheet is missing."
 msgstr "Chýba šablóna štýlov."
 
 #. translators: %s: site name
-#: wp-includes/functions.php:2595
+#: wp-includes/functions.php:2596
 msgid "You are attempting to log out of %s"
 msgstr "Pokúšate sa odhlásiť z %s"
 
@@ -10901,7 +10914,7 @@ msgstr "Chýba nadradená téma. Prosím nainštalujte nadradenú tému \"%s\"."
 msgid "<strong>ERROR</strong>: Your account has been marked as a spammer."
 msgstr "<strong>CHYBA</strong>: Váš účet bol označený ako pôvodca spamu."
 
-#: wp-includes/functions.php:5328 wp-includes/user.php:285
+#: wp-includes/functions.php:5329 wp-includes/user.php:285
 msgid "Please log in again."
 msgstr "Prihláste sa prosím znovu."
 
@@ -11167,7 +11180,7 @@ msgstr "<strong>CHYBA</strong>: Nesprávne používateľské meno alebo e-mail."
 msgid "<strong>ERROR</strong>: Please type your email address."
 msgstr "<strong>CHYBA</strong>: Zadajte svoju e-mailovú adresu."
 
-#: wp-includes/widgets/class-wp-widget-text.php:468
+#: wp-includes/widgets/class-wp-widget-text.php:489
 msgid "Automatically add paragraphs"
 msgstr "Automaticky pridávať odseky"
 
@@ -11180,27 +11193,27 @@ msgstr "Odsek"
 #. translators: 1: PHP file name, 2: version number, 3: alternative file name
 #. translators: 1: WordPress hook name, 2: version number, 3: alternative hook
 #. name
-#: wp-includes/functions.php:3838 wp-includes/functions.php:3966
-#: wp-includes/functions.php:4089
+#: wp-includes/functions.php:3839 wp-includes/functions.php:3967
+#: wp-includes/functions.php:4090
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s sa od verzie %2$s <strong>nepoužíva</strong>! Použite namiesto toho %3$s."
 
 #. translators: 1: PHP function name, 2: version number
 #. translators: 1: PHP file name, 2: version number
 #. translators: 1: WordPress hook name, 2: version number
-#: wp-includes/functions.php:3841 wp-includes/functions.php:3969
-#: wp-includes/functions.php:4092
+#: wp-includes/functions.php:3842 wp-includes/functions.php:3970
+#: wp-includes/functions.php:4093
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s sa od verzie %2$s <strong>nepoužíva</strong> bez dostupnej alternatívy."
 
 #. translators: 1: PHP function name, 2: version number, 3: optional message
 #. regarding the change
-#: wp-includes/functions.php:4030
+#: wp-includes/functions.php:4031
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "%1$s bol zavolaný argumentom ktorý sa už <strong>nepoužíva</strong> od verzie %2$s! %3$s"
 
 #. translators: 1: PHP function name, 2: version number
-#: wp-includes/functions.php:4033
+#: wp-includes/functions.php:4034
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s bol zavolaný argumentom, ktorý sa <strong>nepoužíva</strong> od verzie %2$s bez dostupnej alternatívy."
 
@@ -11232,8 +11245,8 @@ msgstr "Vľavo dole"
 msgid "Bottom Right"
 msgstr "Vpravo dole"
 
-#: wp-includes/class-wp-customize-manager.php:5095
-#: wp-includes/class-wp-customize-manager.php:5136
+#: wp-includes/class-wp-customize-manager.php:5135
+#: wp-includes/class-wp-customize-manager.php:5176
 msgid "Fill Screen"
 msgstr "Zaplniť obrazovku"
 
@@ -11250,7 +11263,7 @@ msgid "%s [Current Revision]"
 msgstr "%s [aktuálna revízia]"
 
 #. translators: %s: logout URL
-#: wp-includes/functions.php:2602
+#: wp-includes/functions.php:2603
 msgid "Do you really want to <a href=\"%s\">log out</a>?"
 msgstr "Určite sa chcete <a href=\"%s\">odhlásiť</a>?"
 
@@ -11265,7 +11278,7 @@ msgstr[2] "Súkromné <span class=\"count\">(%s)</span>"
 msgid "Private: %s"
 msgstr "Súkromné: %s"
 
-#: wp-includes/functions.php:4722
+#: wp-includes/functions.php:4723
 msgid "Manual Offsets"
 msgstr "Manuálne odsadenie"
 
@@ -11403,23 +11416,6 @@ msgstr "Formát času"
 msgid "Height"
 msgstr "Výška"
 
-#: wp-includes/widgets/class-wp-nav-menu-widget.php:137
-#: wp-includes/widgets/class-wp-widget-archives.php:160
-#: wp-includes/widgets/class-wp-widget-calendar.php:101
-#: wp-includes/widgets/class-wp-widget-categories.php:168
-#: wp-includes/widgets/class-wp-widget-custom-html.php:253
-#: wp-includes/widgets/class-wp-widget-media.php:406
-#: wp-includes/widgets/class-wp-widget-meta.php:113
-#: wp-includes/widgets/class-wp-widget-pages.php:130
-#: wp-includes/widgets/class-wp-widget-recent-comments.php:156
-#: wp-includes/widgets/class-wp-widget-recent-posts.php:135
-#: wp-includes/widgets/class-wp-widget-search.php:70
-#: wp-includes/widgets/class-wp-widget-tag-cloud.php:126
-#: wp-includes/widgets/class-wp-widget-text.php:453
-#: wp-includes/widgets/class-wp-widget-text.php:486
-msgid "Title:"
-msgstr "Nadpis:"
-
 #: wp-includes/taxonomy.php:517
 msgid "Separate tags with commas"
 msgstr "Značky oddeľte čiarkami"
@@ -11429,7 +11425,7 @@ msgid "Website"
 msgstr "Adresa webu"
 
 #: wp-includes/admin-bar.php:830 wp-includes/class-wp-customize-widgets.php:412
-#: wp-includes/functions.php:3714
+#: wp-includes/functions.php:3715
 msgid "Widgets"
 msgstr "Widgety"
 
@@ -11454,6 +11450,23 @@ msgstr "Zadajte heslo a zobrazia sa komentáre."
 #: wp-includes/comment-template.php:921
 msgid "No Comments"
 msgstr "Nekomentované"
+
+#: wp-includes/widgets/class-wp-nav-menu-widget.php:137
+#: wp-includes/widgets/class-wp-widget-archives.php:160
+#: wp-includes/widgets/class-wp-widget-calendar.php:101
+#: wp-includes/widgets/class-wp-widget-categories.php:168
+#: wp-includes/widgets/class-wp-widget-custom-html.php:253
+#: wp-includes/widgets/class-wp-widget-media.php:406
+#: wp-includes/widgets/class-wp-widget-meta.php:113
+#: wp-includes/widgets/class-wp-widget-pages.php:130
+#: wp-includes/widgets/class-wp-widget-recent-comments.php:156
+#: wp-includes/widgets/class-wp-widget-recent-posts.php:135
+#: wp-includes/widgets/class-wp-widget-search.php:70
+#: wp-includes/widgets/class-wp-widget-tag-cloud.php:126
+#: wp-includes/widgets/class-wp-widget-text.php:474
+#: wp-includes/widgets/class-wp-widget-text.php:507
+msgid "Title:"
+msgstr "Nadpis:"
 
 #: wp-includes/comment-template.php:923
 msgid "1 Comment"
@@ -11531,7 +11544,7 @@ msgstr "Meta"
 msgid "First Post"
 msgstr "Prvý článok"
 
-#: wp-includes/class-wp-customize-manager.php:4832
+#: wp-includes/class-wp-customize-manager.php:4872
 #: wp-includes/class-wp-xmlrpc-server.php:540
 msgid "Site Title"
 msgstr "Názov stránky"
@@ -11566,7 +11579,7 @@ msgstr "<strong>CHYBA</strong>: Tento e-mail je už zaregistrovaný, zadajte pro
 msgid "Strength indicator"
 msgstr "Indikátor bezpečnosti hesla"
 
-#: wp-includes/class-wp-customize-manager.php:4901
+#: wp-includes/class-wp-customize-manager.php:4941
 #: wp-includes/customize/class-wp-customize-color-control.php:51
 #: wp-includes/customize/class-wp-customize-media-control.php:225
 #: wp-includes/customize/class-wp-customize-media-control.php:235
@@ -11653,7 +11666,7 @@ msgstr "Popis"
 msgid "Author"
 msgstr "Autor"
 
-#: wp-includes/class-wp-customize-nav-menus.php:1095
+#: wp-includes/class-wp-customize-nav-menus.php:1111
 #: wp-includes/class-wp-editor.php:1136 wp-includes/class-wp-editor.php:1700
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:86
 #: wp-includes/media-template.php:376 wp-includes/media-template.php:557
@@ -11685,7 +11698,7 @@ msgstr "Späť"
 msgid "Comments"
 msgstr "Komentáre"
 
-#: wp-includes/class-wp-customize-manager.php:4578
+#: wp-includes/class-wp-customize-manager.php:4617
 #: wp-includes/script-loader.php:549 wp-includes/script-loader.php:689
 msgid "Publish"
 msgstr "Publikovať"
@@ -11725,7 +11738,7 @@ msgctxt "post"
 msgid "Add New"
 msgstr "Pridať nový"
 
-#: wp-includes/customize/class-wp-customize-nav-menu-control.php:46
+#: wp-includes/customize/class-wp-customize-nav-menu-control.php:55
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:61
 #: wp-includes/script-loader.php:879
 msgid "Done"
@@ -11739,7 +11752,7 @@ msgstr "Anonym"
 msgid "RSS"
 msgstr "RSS"
 
-#: wp-includes/class-wp-customize-manager.php:4119
+#: wp-includes/class-wp-customize-manager.php:4156
 #: wp-includes/class-wp-editor.php:1119 wp-includes/media-template.php:1247
 msgid "Preview"
 msgstr "Náhľad"
@@ -11759,7 +11772,7 @@ msgstr "Zrušiť"
 msgid "Content"
 msgstr "Obsah"
 
-#: wp-includes/class-wp-customize-manager.php:4583
+#: wp-includes/class-wp-customize-manager.php:4622
 #: wp-includes/script-loader.php:551 wp-includes/script-loader.php:693
 msgid "Save Draft"
 msgstr "Uložiť koncept"
@@ -11860,7 +11873,7 @@ msgid "Add or remove tags"
 msgstr "Pridať alebo odstrániť značky"
 
 #: wp-includes/class-wp-customize-control.php:634
-#: wp-includes/class-wp-customize-nav-menus.php:1065
+#: wp-includes/class-wp-customize-nav-menus.php:1081
 msgid "Add"
 msgstr "Pridať"
 
@@ -11885,7 +11898,7 @@ msgstr "Odkazy"
 msgid "Uncategorized"
 msgstr "Nezaradené"
 
-#: wp-includes/class-wp-customize-manager.php:5261
+#: wp-includes/class-wp-customize-manager.php:5301
 #: wp-includes/class-wp-editor.php:1053 wp-includes/class-wp-editor.php:1695
 #: wp-includes/script-loader.php:277 wp-includes/script-loader.php:371
 #: wp-includes/script-loader.php:562 wp-includes/script-loader.php:1125
@@ -11943,10 +11956,10 @@ msgstr "Revízie"
 msgid "All Categories"
 msgstr "Všetky kategórie"
 
-#: wp-includes/class-wp-customize-manager.php:4090
+#: wp-includes/class-wp-customize-manager.php:4129
 #: wp-includes/script-loader.php:146 wp-includes/script-loader.php:307
-#: wp-includes/widgets/class-wp-widget-text.php:500
-#: wp-includes/widgets/class-wp-widget-text.php:515
+#: wp-includes/widgets/class-wp-widget-text.php:521
+#: wp-includes/widgets/class-wp-widget-text.php:536
 msgid "Dismiss"
 msgstr "Zrušiť"
 
@@ -11995,7 +12008,7 @@ msgstr "Použiť"
 msgid "Public, Sticky"
 msgstr "Verejné, pripnuté"
 
-#: wp-includes/deprecated.php:3130 wp-includes/functions.php:2606
+#: wp-includes/deprecated.php:3130 wp-includes/functions.php:2607
 msgid "Are you sure you want to do this?"
 msgstr "Skutočne to chcete urobiť?"
 

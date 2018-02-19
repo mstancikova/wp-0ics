@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-10-21 12:15:32+0000\n"
+"PO-Revision-Date: 2018-02-16 08:25:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,7 +24,7 @@ msgstr "Chystáte sa odstrániť nasledujúce webové stránky:"
 msgid "User could not be added to this site."
 msgstr "Používateľ nemôže byť pridaný k tejto webovej stránke."
 
-#: wp-admin/network/site-new.php:250
+#: wp-admin/network/site-new.php:252
 msgid "The username and a link to set the password will be mailed to this email address."
 msgstr "Používateľské meno a odkaz na nastavenie hesla budú odoslané na túto e-mailovú adresu."
 
@@ -563,7 +563,7 @@ msgstr "Nastavenia nových registrácií"
 msgid "Allowed file types. Separate types by spaces."
 msgstr "Povolené typy súborov. Oddeľujte typy medzerou."
 
-#: wp-admin/network/settings.php:418
+#: wp-admin/network/settings.php:420
 msgid "Enable menus"
 msgstr "Povoliť menu"
 
@@ -860,10 +860,6 @@ msgstr "Subdomény"
 msgid "Network Title"
 msgstr "Názov siete"
 
-#: wp-admin/network.php:61
-msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
-msgstr "Ďalšia obrazovka pre Nastavenie siete umožňuje pridávanie inviduálne vytvorených riadkov kódu do súborov wp-config.php a .htaccess. Skontrolujte v nastaveniach vášho FTP klienta, že súbory začínajúce bodkou (.) sú viditeľné, takže môžete nájsť .htaccess. Ak súbor nie je k dispozícii, tak ho vytvorte. Tiež si vytvorte záložné kópie súborov wp-config.php a .htaccess"
-
 #: wp-admin/network.php:59
 msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
 msgstr "Toto okno umožňuje nastavenie siete ako subdomény (<code>site1.example.com</code>) alebo podadresára (<code>example.com/site1</code>). Subdomény vyžadujú prístupný wildcard Apache alebo DNS záznam. Ak to hosting umožňuje."
@@ -1005,6 +1001,10 @@ msgstr "Zvoľte si subdomény alebo podadresáre; toto je možné aktivovať až
 #: wp-admin/includes/network.php:286
 msgid "Because your installation is in a directory, the sites in your WordPress network must use sub-directories."
 msgstr "Pretože WordPress inštalácia sa nachádza v adresári, webové stránky WordPress siete musia používať podadresáre."
+
+#: wp-admin/network.php:61
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "Ďalšia obrazovka pre Nastavenie siete umožňuje pridávanie inviduálne vytvorených riadkov kódu do súborov wp-config.php a .htaccess. Uistite sa, že súbory začínajúce bodkou (.) sú v nastaveniach vášho FTP klienta viditeľné, aby ste mohli nájsť .htaccess. Ak súbor nie je k dispozícii, vytvorte ho. Tiež si vytvorte záložné kópie súborov wp-config.php a .htaccess"
 
 #: wp-admin/network/users.php:70
 msgid "Warning! User cannot be modified. The user %s is a network administrator."
@@ -1239,7 +1239,7 @@ msgstr "Nastavenia novej stránky"
 msgid "Operational Settings"
 msgstr "Operačné nastavenia"
 
-#: wp-admin/network/settings.php:396
+#: wp-admin/network/settings.php:398
 msgid "Enable administration menus"
 msgstr "Povoliť administrátorské menu"
 
@@ -1284,7 +1284,7 @@ msgstr "E-mail administrátora siete"
 msgid "Send the network admin an email notification every time someone registers a site or user account"
 msgstr "Pošlite administrátorovi siete upozornenie e-mailom zakaždým, keď niekto zaregistruje stránku alebo používateľský účet"
 
-#: wp-admin/network/site-new.php:246
+#: wp-admin/network/site-new.php:248
 msgid "Admin Email"
 msgstr "E-mail administrátora"
 
@@ -1308,7 +1308,7 @@ msgstr "Zakázané mená"
 msgid "First Comment"
 msgstr "Prvý komentár"
 
-#: wp-admin/network/site-new.php:262
+#: wp-admin/network/site-new.php:264
 msgid "Add Site"
 msgstr "Pridať stránku"
 
@@ -1360,7 +1360,7 @@ msgstr "Uvítací e-mail používateľa"
 msgid "The welcome email sent to new users."
 msgstr "Uvítací email, ktorý bude odoslalný novým používateľom."
 
-#: wp-admin/network/site-new.php:250
+#: wp-admin/network/site-new.php:252
 msgid "A new user will be created if the above email address is not in the database."
 msgstr "Nový používateľ bude vytvorený v prípade, že vyššie uvedená e-mailová adresa nie je v databáze."
 

@@ -4529,3 +4529,7 @@ nav.navigation .nav-links a:visited {
 .portfolio-img{margin:5px; width:10%; border:1px solid #cccccc;}
 .portfolio-img-w15{margin:5px; width:15% !important; height:auto; border:1px solid #cccccc;}
 .portfolio-img-w08{margin:5px; width:8% !important; height:auto; border:1px solid #cccccc;}
+
+#wpml_credit_footer{
+	text-align:center;
+}
